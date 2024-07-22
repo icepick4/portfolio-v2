@@ -1,0 +1,139 @@
+[
+    {
+        "name": "Sonic Game",
+        "description": "This project is a game inspired by the Dino Game in Google Chrome. The game is a simple endless runner game where the player controls a character that must avoid obstacles. I chose to use a pixel art style for the game, so that I could design some of the assets myself. This project was created to practice my skills in Pygame and Python. I wanted to create a game that was simple and fun to play.",
+        "status": "",
+        "date": "",
+        "type": "",
+        "technos": ["Python", "Pygame", "Pixel Art"],
+        "link": "https://github.com/icepick4/Sonic-Game",
+        "repo_link": "https://github.com/icepick4/Sonic-Game/archive/refs/heads/main.zip"
+    },
+    {
+        "name": "Daily steam stats",
+        "description": "This project is a twitter bot that tweets daily stats about the steam platform. The bot tweets stats about trending games, most played games, and highest peak players. Ths bot is hosted locally on my TrueNAS server with a Docker container. I created this project to share data about video games, I had to learn how to use Tweepy to create a twitter bot and how to host my project on a local Nas server with docker.",
+        "status": "",
+        "date": "",
+        "type": "",
+        "technos": ["Python", "Tweepy", "Docker", "Scraping", "Nas server"],
+        "link": "https://github.com/icepick4/daily-steam-stats",
+        "repo_link": "https://twitter.com/DailySteamStats"
+    },
+    {
+        "name": "Tower of Hanoi",
+        "description": "This project is a game inspired by the Tower of Hanoi. The game is a simple puzzle game where the player must move the disks from the first tower to the last one. That project made me learn TypeScript, I firstly started with JavaScript then switched to TypeScript, I also learnt how to use Three.js (such a great library).",
+        "status": "",
+        "date": "",
+        "type": "",
+        "technos": ["TypeScript", "Three.js", "CSS"],
+        "link": "https://github.com/icepick4/tower-of-hanoi",
+        "repo_link": "https://icepick4.github.io/tower-of-hanoi/threejs/public/"
+    },
+    {
+        "name": "Rubik's Cube sessions manager",
+        "description": "This project is a Python application that allows users to manage their rubik's cube sessions. The application allows users to store their times for each type of cube, and to see their progress instantly. Users can later see overall stats and daily stats that are updated automatically in each session in a local file. So that users can see their progress over time. I created this project because Rubik's cube is one of my passions, and I wanted to have a tool to manage my sessions and my progress.",
+        "status": "",
+        "date": "",
+        "type": "",
+        "technos": ["Python", "Pygame", "Data management"],
+        "link": "https://github.com/icepick4/timer-stats-rubiks-cube",
+        "repo_link": "https://github.com/icepick4/timer-stats-rubiks-cube/archive/refs/heads/main.zip"
+    },
+    {
+        "name": "Memory game One Piece",
+        "description": "This project is a game inspired by the Memory Game. The game is a simple memory game where the player must find all the pairs of cards. The memory design is inspired by the One Piece anime Universe. You can play either solo or with a friend, with 3 different difficulties (which change the number of cards). This project was created to practice Typescript and have fun with the One Piece Universe and creating a game!",
+        "status": "",
+        "date": "",
+        "type": "",
+        "technos": ["TypeScript", "HTML", "CSS"],
+        "link": "https://github.com/icepick4/Memory-One-Piece",
+        "repo_link": "https://icepick4.github.io/Memory-One-Piece/public"
+    },
+    {
+        "name": "TchouTchou",
+        "description": "This web site allows you to create an account and buy tickets for any train station in France. You can also see the train schedule and the train status and many other features like contact services and more. This project was created as part of my studies in the university. The main goal was to create an application managing a Database. So we decided to create a train station application.",
+        "status": "",
+        "date": "",
+        "type": "",
+        "technos": ["PHP", "Oracle", "HTML", "CSS", "JavaScript", "Docker"],
+        "link": "https://github.com/icepick4/TchouTchou",
+        "repo_link": "http://tchoutchou.ovh/"
+    },
+    {
+        "name": "Connect 4",
+        "description": "This project is a game inspired by the Connect 4. The game is a simple game where the player must align 4 disks of the same color. You can play against the computer or against another player. This game was made with Python and Pygame.",
+        "status": "",
+        "date": "",
+        "type": "",
+        "technos": ["Python", "Pygame"],
+        "link": "https://github.com/icepick4/Connect-4",
+        "repo_link": "https://github.com/icepick4/Connect-4/archive/refs/heads/main.zip"
+    },
+    {
+        "name": "PacSida",
+        "description": "This project is a game inspired by the Pacman game. We made a simple game where the player must eat all the points and avoid the virus, he can also eat the protections to be invincible for a short time. We created this serious game as a team of 5 during a special event that took place in the whole France at the end, we finished at the second place in two challenges : \"AXOCapt'Challenge\" (Captcha verification) and \"Le chat l'a attrapée\" (accessibility). It was made by 5 students in one night. The goal was to create a serious game about the Virus Sida during an event called \"La nuit de l'info\", you can learn more at this address : https://www.nuitdelinfo.com/. This game was made with the basics HTML, CSS and JavaScript.",
+        "status": "",
+        "date": "",
+        "type": "",
+        "technos": ["HTML", "CSS", "JavaScript"],
+        "link": "https://github.com/icepick4/nuit-de-l-info2022",
+        "repo_link": "https://ndli.rabec.eu/"
+    },
+    {
+        "name": "OnePyece",
+        "description": "This project is a Python package that allows users to interact with this API : https://api-onepiece.com/. It is a simple API wrapper that allows users to get data from the One Piece Universe. This project was created to practice Python and have fun with the One Piece Universe and creating a package for the first time!",
+        "status": "",
+        "date": "",
+        "type": "",
+        "technos": ["Python", "PyPi"],
+        "link": "https://github.com/icepick4/onepyece",
+        "repo_link": "https://pypi.org/project/onepyece/"
+    },
+    {
+        "name": "BlaBl'App",
+        "description": "This project is a mobile application that allows users to chat with other users on the same server. The application is responsive and works on all devices. Moreover, the docker image is open source so you can host your own server. The backend is made with Flask and the frontend is made with Kotlin. This project was created as part of my studies in the university. The main goal was to create a mobile application using Kotlin. So we decided to create a chat application with a server as a group of 3.",
+        "status": "",
+        "date": "",
+        "type": "",
+        "technos": ["Kotlin", "Flask", "Docker"],
+        "link": "https://github.com/BlaBl-App",
+        "repo_link": "https://github.com/BlaBl-App/BlaBl-App/releases/download/1.0/BalBl-App.apk"
+    },
+    {
+        "name": "Capitalympics",
+        "description": "Capitalympics is a web application that helps you learn the flags and capitals of countries around the world. It provides a filtered learning experience by allowing you to focus on specific regions of the world. You can track your progress with individual scores for each country as well as an overall score. The application also allows you to view your statistics on your profile and sort and filter them by category. I created this project out of passion. I learned Vue.js and Tailwind CSS for this project. The web app and the API are hosted on my own server with docker and Nginx, they are both open source and available on my GitHub.",
+        "status": "",
+        "date": "",
+        "type": "",
+        "technos": ["Vue.js", "Tailwind CSS", "MySQL", "Three.js", "Docker"],
+        "link": "https://github.com/icepick4/capitalympics",
+        "repo_link": "https://capitalympics.com/"
+    },
+    {
+        "name": "Portfolio Levi Lea",
+        "description": "I made this portfolio for a friend of mine, Levi Lea. She is a student graphic designer and she wanted a portfolio to show her work. I created this web site to show her projects and be able to share them in a professional way.",
+        "status": "",
+        "date": "",
+        "type": "",
+        "technos": ["Vue.js", "TypeScript", "Tailwind CSS", "Swiper.js"],
+        "link": "https://github.com/icepick4",
+        "repo_link": "https://levilea.fr/"
+    },
+    {
+        "name": "LyricsLingua",
+        "description": "LyricsLingua is a web application that allows you to translate lyrics from a song with AI. I developed that web app to learn new concepts and frameworks. I learnt Nuxt and Stripe for this project.",
+        "status": "",
+        "date": "",
+        "type": "",
+        "technos": [
+            "Nuxt",
+            "Tailwind CSS",
+            "Stripe",
+            "OpenAI",
+            "MongoDB",
+            "Resend"
+        ],
+        "link": "https://github.com/icepick4",
+        "repo_link": "https://www.lyricslingua.com/"
+    }
+]

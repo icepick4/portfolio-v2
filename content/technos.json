@@ -1,0 +1,218 @@
+[
+    {
+        "title": "JavaScript",
+        "image": "",
+        "type": "",
+        "url": "https://www.javascript.com/"
+    },
+    {
+        "title": "TypeScript",
+        "image": "",
+        "type": "",
+        "url": "https://www.typescriptlang.org/"
+    },
+    {
+        "title": "Angular",
+        "image": "",
+        "type": "",
+        "url": "https://angular.io/"
+    },
+    {
+        "title": "Java",
+        "image": "",
+        "type": "",
+        "url": "https://java.com/fr/"
+    },
+    {
+        "title": "Python",
+        "image": "",
+        "type": "",
+        "url": "https://www.python.org/"
+    },
+    {
+        "title": "Pygame",
+        "image": "",
+        "type": "",
+        "url": "https://pygame.org/"
+    },
+    {
+        "title": "C",
+        "image": "",
+        "type": "",
+        "url": "https://www.cprogramming.com/"
+    },
+    {
+        "title": "HTML",
+        "image": "",
+        "type": "",
+        "url": "https://www.w3schools.com/html/"
+    },
+    {
+        "title": "CSS",
+        "image": "",
+        "type": "",
+        "url": "https://www.w3schools.com/css/"
+    },
+    {
+        "title": "SCSS",
+        "image": "",
+        "type": "",
+        "url": "https://sass-lang.com/"
+    },
+    {
+        "title": "PHP",
+        "image": "",
+        "type": "",
+        "url": "https://www.php.net/"
+    },
+    {
+        "title": "Tailwind CSS",
+        "image": "",
+        "type": "",
+        "url": "https://tailwindcss.com/"
+    },
+    {
+        "title": "Kotlin",
+        "image": "",
+        "type": "",
+        "url": "https://kotlinlang.org/"
+    },
+    {
+        "title": "Symfony",
+        "image": "",
+        "type": "",
+        "url": "https://symfony.com/"
+    },
+    {
+        "title": "Vue.js",
+        "image": "",
+        "type": "",
+        "url": "https://vuejs.org/"
+    },
+    {
+        "title": "Nuxt",
+        "image": "",
+        "type": "",
+        "url": "https://nuxt.com/"
+    },
+    {
+        "title": "Node.js",
+        "image": "",
+        "type": "",
+        "url": "https://nodejs.org/"
+    },
+    {
+        "title": "React",
+        "image": "",
+        "type": "",
+        "url": "https://reactjs.org/"
+    },
+    {
+        "title": "MySQL",
+        "image": "",
+        "type": "",
+        "url": "https://www.mysql.com/"
+    },
+    {
+        "title": "MongoDB",
+        "image": "",
+        "type": "",
+        "url": "https://www.mongodb.com/"
+    },
+    {
+        "title": "Prisma",
+        "image": "",
+        "type": "",
+        "url": "https://www.prisma.io/"
+    },
+    {
+        "title": "VS Code",
+        "image": "",
+        "type": "",
+        "url": "https://code.visualstudio.com/"
+    },
+    {
+        "title": "Netbeans",
+        "image": "",
+        "type": "",
+        "url": "https://netbeans.apache.org/"
+    },
+    {
+        "title": "Git",
+        "image": "",
+        "type": "",
+        "url": "https://git-scm.com/"
+    },
+    {
+        "title": "GitHub",
+        "image": "",
+        "type": "",
+        "url": "https://github.com"
+    },
+    {
+        "title": "GitHub Actions",
+        "image": "",
+        "type": "",
+        "url": "https://github.com"
+    },
+    {
+        "title": "Vercel",
+        "image": "",
+        "type": "",
+        "url": "https://vercel.com/"
+    },
+    {
+        "title": "Docker",
+        "image": "",
+        "type": "",
+        "url": "https://www.docker.com/"
+    },
+    {
+        "title": "Linux",
+        "image": "",
+        "type": "",
+        "url": "https://www.linux.org/"
+    },
+    {
+        "title": "Arch Linux",
+        "image": "",
+        "type": "",
+        "url": "https://archlinux.org/"
+    },
+    {
+        "title": "Windows",
+        "image": "",
+        "type": "",
+        "url": "https://www.microsoft.com/en-us/windows"
+    },
+    {
+        "title": "Android Studio",
+        "image": "",
+        "type": "",
+        "url": "https://developer.android.com/studio"
+    },
+    {
+        "title": "Skateboarding",
+        "image": "",
+        "type": "",
+        "url": "https://biomeskateboard.fr/"
+    },
+    {
+        "title": "Programming",
+        "image": "",
+        "type": "",
+        "url": "https://github.com"
+    },
+    {
+        "title": "Gaming",
+        "image": "",
+        "type": "",
+        "url": "https://www.leagueoflegends.com/fr-fr/"
+    },
+    {
+        "title": "Computer Science",
+        "image": "",
+        "type": "",
+        "url": "https://github.com/icepick4"
+    }
+]

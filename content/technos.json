@@ -2,217 +2,265 @@
     {
         "title": "JavaScript",
         "image": "",
-        "type": "",
+        "type": "language",
         "url": "https://www.javascript.com/"
     },
     {
         "title": "TypeScript",
         "image": "",
-        "type": "",
+        "type": "language",
         "url": "https://www.typescriptlang.org/"
     },
     {
         "title": "Angular",
         "image": "",
-        "type": "",
+        "type": "framework",
         "url": "https://angular.io/"
     },
     {
         "title": "Java",
         "image": "",
-        "type": "",
+        "type": "language",
         "url": "https://java.com/fr/"
     },
     {
         "title": "Python",
         "image": "",
-        "type": "",
+        "type": "language",
         "url": "https://www.python.org/"
     },
     {
         "title": "Pygame",
         "image": "",
-        "type": "",
+        "type": "library",
         "url": "https://pygame.org/"
     },
     {
         "title": "C",
         "image": "",
-        "type": "",
+        "type": "language",
         "url": "https://www.cprogramming.com/"
     },
     {
         "title": "HTML",
         "image": "",
-        "type": "",
+        "type": "language",
         "url": "https://www.w3schools.com/html/"
     },
     {
         "title": "CSS",
         "image": "",
-        "type": "",
+        "type": "language",
         "url": "https://www.w3schools.com/css/"
     },
     {
         "title": "SCSS",
         "image": "",
-        "type": "",
+        "type": "library",
         "url": "https://sass-lang.com/"
     },
     {
         "title": "PHP",
         "image": "",
-        "type": "",
+        "type": "language",
         "url": "https://www.php.net/"
     },
     {
         "title": "Tailwind CSS",
         "image": "",
-        "type": "",
+        "type": "library",
         "url": "https://tailwindcss.com/"
     },
     {
         "title": "Kotlin",
         "image": "",
-        "type": "",
+        "type": "language",
         "url": "https://kotlinlang.org/"
     },
     {
         "title": "Symfony",
         "image": "",
-        "type": "",
+        "type": "framework",
         "url": "https://symfony.com/"
     },
     {
         "title": "Vue.js",
         "image": "",
-        "type": "",
+        "type": "framework",
         "url": "https://vuejs.org/"
     },
     {
         "title": "Nuxt",
         "image": "",
-        "type": "",
+        "type": "framework",
         "url": "https://nuxt.com/"
     },
     {
         "title": "Node.js",
         "image": "",
-        "type": "",
+        "type": "framework",
         "url": "https://nodejs.org/"
     },
     {
         "title": "React",
         "image": "",
-        "type": "",
+        "type": "library",
         "url": "https://reactjs.org/"
     },
     {
         "title": "MySQL",
         "image": "",
-        "type": "",
+        "type": "database",
         "url": "https://www.mysql.com/"
     },
     {
         "title": "MongoDB",
         "image": "",
-        "type": "",
+        "type": "database",
         "url": "https://www.mongodb.com/"
     },
     {
         "title": "Prisma",
         "image": "",
-        "type": "",
+        "type": "library",
         "url": "https://www.prisma.io/"
     },
     {
         "title": "VS Code",
         "image": "",
-        "type": "",
+        "type": "development-tool",
         "url": "https://code.visualstudio.com/"
     },
     {
         "title": "Netbeans",
         "image": "",
-        "type": "",
+        "type": "development-tool",
         "url": "https://netbeans.apache.org/"
     },
     {
         "title": "Git",
         "image": "",
-        "type": "",
+        "type": "development-tool",
         "url": "https://git-scm.com/"
     },
     {
         "title": "GitHub",
         "image": "",
-        "type": "",
+        "type": "development-tool",
         "url": "https://github.com"
     },
     {
         "title": "GitHub Actions",
         "image": "",
-        "type": "",
+        "type": "devops",
         "url": "https://github.com"
     },
     {
         "title": "Vercel",
         "image": "",
-        "type": "",
+        "type": "development-tool",
         "url": "https://vercel.com/"
     },
     {
         "title": "Docker",
         "image": "",
-        "type": "",
+        "type": "devops",
         "url": "https://www.docker.com/"
+    },
+    {
+        "title": "Terraform",
+        "image": "",
+        "type": "devops",
+        "url": "https://www.terraform.io/"
+    },
+    {
+        "title": "AWS",
+        "image": "",
+        "type": "devops",
+        "url": "https://aws.amazon.com/"
     },
     {
         "title": "Linux",
         "image": "",
-        "type": "",
+        "type": "development-tool",
         "url": "https://www.linux.org/"
     },
     {
         "title": "Arch Linux",
         "image": "",
-        "type": "",
+        "type": "development-tool",
         "url": "https://archlinux.org/"
     },
     {
         "title": "Windows",
         "image": "",
-        "type": "",
+        "type": "development-tool",
         "url": "https://www.microsoft.com/en-us/windows"
     },
     {
         "title": "Android Studio",
         "image": "",
-        "type": "",
+        "type": "development-tool",
         "url": "https://developer.android.com/studio"
     },
     {
-        "title": "Skateboarding",
+        "title": "Postman",
         "image": "",
-        "type": "",
-        "url": "https://biomeskateboard.fr/"
+        "type": "apis-integration",
+        "url": "https://www.postman.com/"
     },
     {
-        "title": "Programming",
+        "title": "Insomnia",
         "image": "",
-        "type": "",
-        "url": "https://github.com"
+        "type": "apis-integration",
+        "url": "https://insomnia.rest/"
     },
     {
-        "title": "Gaming",
+        "title": "RESTful APIs",
         "image": "",
-        "type": "",
-        "url": "https://www.leagueoflegends.com/fr-fr/"
+        "type": "apis-integration",
+        "url": ""
     },
     {
-        "title": "Computer Science",
+        "title": "GraphQL",
         "image": "",
-        "type": "",
-        "url": "https://github.com/icepick4"
+        "type": "apis-integration",
+        "url": "https://graphql.org/"
+    },
+    {
+        "title": "OAuth",
+        "image": "",
+        "type": "apis-integration",
+        "url": "https://oauth.net/"
+    },
+    {
+        "title": "Zod",
+        "image": "",
+        "type": "library",
+        "url": "https://zod.dev/"
+    },
+    {
+        "title": "NuxtUI",
+        "image": "",
+        "type": "library",
+        "url": "https://nuxtui.org/"
+    },
+    {
+        "title": "Three.js",
+        "image": "",
+        "type": "library",
+        "url": "https://threejs.org/"
+    },
+    {
+        "title": "OpenAI",
+        "image": "",
+        "type": "library",
+        "url": "https://openai.com/"
+    },
+    {
+        "title": "Resend",
+        "image": "",
+        "type": "library",
+        "url": "https://resend.com/"
     }
 ]

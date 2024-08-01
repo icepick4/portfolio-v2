@@ -20,12 +20,13 @@ watch(currentFilter, (value) => {
 <template>
     <section class="flex min-h-0 flex-col gap-3">
         <h2 class="text-xl font-bold">Skills</h2>
-        <div class="flex flex-row gap-1">
+        <div class="flex flex-wrap gap-1">
             <UButton
                 v-for="(type, index) in technoTypes"
                 :key="index"
                 @click="currentFilter = type"
-                :class="{ 'bg-stone-400 text-white': type === currentFilter }"
+                class="hover:bg-stone-600 hover:text-white"
+                :class="{ 'bg-stone-600 text-white': type === currentFilter }"
             >
                 {{ getTechnoTypeLabel(type) }}
             </UButton>
@@ -34,7 +35,7 @@ watch(currentFilter, (value) => {
             <UButton
                 v-for="skill in skills"
                 :key="skill.title"
-                class="relative text-center border border-stone-400 p-1 rounded-md flex flex-col gap-4 items-center text-xs w-28 h-28 justify-start"
+                class="relative text-center border border-stone-600 p-1 rounded-md flex flex-col gap-4 items-center text-xs w-28 h-28 justify-start"
                 square
                 variant="soft"
                 :to="skill.url"

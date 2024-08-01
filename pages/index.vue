@@ -9,6 +9,7 @@
         >
             <Header />
             <About />
+            <Work />
             <Skills />
         </section>
     </main>

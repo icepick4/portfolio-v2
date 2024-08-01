@@ -1,11 +1,33 @@
-type TechnoType =
-    | 'language'
-    | 'framework'
-    | 'library'
-    | 'database'
-    | 'development-tool'
-    | 'devops'
-    | 'apis-integration';
+export const technoTypes = [
+    'language',
+    'framework',
+    'library',
+    'database',
+    'development-tool',
+    'devops',
+    'apis-integration'
+] as const;
+
+export function getTechnoTypeLabel(type: TechnoType) {
+    switch (type) {
+        case 'language':
+            return 'Language';
+        case 'framework':
+            return 'Framework';
+        case 'library':
+            return 'Library';
+        case 'database':
+            return 'Database';
+        case 'development-tool':
+            return 'Development Tool';
+        case 'devops':
+            return 'DevOps';
+        case 'apis-integration':
+            return 'APIs & Integration';
+    }
+}
+
+type TechnoType = (typeof technoTypes)[number];
 
 type Techno = {
     title: string;

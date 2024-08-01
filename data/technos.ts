@@ -15,7 +15,7 @@ export const technos: Techno[] = [
     },
     {
         title: 'Angular',
-        icon: 'angular',
+        icon: 'angularjs',
         type: 'framework',
         url: 'https://angular.io/'
     },
@@ -33,7 +33,7 @@ export const technos: Techno[] = [
     },
     {
         title: 'Pygame',
-        icon: 'pygame',
+        image: 'pygame',
         type: 'library',
         url: 'https://pygame.org/'
     },
@@ -143,7 +143,7 @@ export const technos: Techno[] = [
         title: 'GitHub Actions',
         icon: 'githubactions',
         type: 'devops',
-        url: 'https://github.com'
+        url: 'https://github.com/features/actions'
     },
     {
         title: 'Vercel',
@@ -188,12 +188,6 @@ export const technos: Techno[] = [
         url: 'https://www.microsoft.com/en-us/windows'
     },
     {
-        title: 'Android Studio',
-        icon: 'androidstudio',
-        type: 'development-tool',
-        url: 'https://developer.android.com/studio'
-    },
-    {
         title: 'Postman',
         icon: 'postman',
         type: 'apis-integration',
@@ -219,31 +213,31 @@ export const technos: Techno[] = [
     },
     {
         title: 'Zod',
-        image: '',
+        image: 'zod',
         type: 'library',
         url: 'https://zod.dev/'
     },
     {
         title: 'NuxtUI',
-        image: '',
+        icon: 'nuxtjs',
         type: 'library',
-        url: 'https://nuxtui.org/'
+        url: 'https://ui.nuxt.com/'
     },
     {
         title: 'Three.js',
-        icon: 'theeejs',
+        icon: 'threejs',
         type: 'library',
         url: 'https://threejs.org/'
     },
     {
         title: 'OpenAI',
-        image: '',
+        image: 'openai',
         type: 'library',
         url: 'https://openai.com/'
     },
     {
         title: 'Resend',
-        image: '',
+        image: 'resend',
         type: 'library',
         url: 'https://resend.com/'
     }

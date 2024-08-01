@@ -9,6 +9,7 @@
         >
             <Header />
             <About />
+            <Skills />
         </section>
     </main>
 </template>

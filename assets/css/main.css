@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "ui-monospace", "Consolas", "Liberation Mono", "Courier New", monospace
+}
+
+h1,
+h2,
+h3 {
+    font-family: "ui-sans-serif", system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+}

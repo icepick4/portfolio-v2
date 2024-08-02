@@ -25,10 +25,10 @@ function getProjectImageName(title: string) {
                 <div class="flex flex-col gap-1 items-start">
                     <a
                         class="text-lg font-bold hover:underline"
-                        :href="project.repo_link"
+                        :href="project.link"
                         >{{ project.name }}</a
                     >
-                    <div class="flex flex-row gap-3 text-neutral-600">
+                    <div class="flex flex-wrap gap-3 text-neutral-600">
                         <Techno
                             v-for="techno in project.technos"
                             :key="techno"
@@ -43,7 +43,7 @@ function getProjectImageName(title: string) {
             </div>
         </div>
         <div class="mt-4 flex flex-row items-center justify-between w-full">
-            <p class="text-xs text-neutral-600 w-1/2">
+            <p class="text-xs text-neutral-600 w-full sm:w-1/2">
                 {{
                     locale === 'fr'
                         ? project.description.fr
@@ -53,7 +53,7 @@ function getProjectImageName(title: string) {
             <img
                 :src="`/projects/${getProjectImageName(project.name)}.png`"
                 alt="logo"
-                class="absolute bottom-0 right-[-10%] shadow-2xl rounded-t-xl z-10 h-44 w-80 transition group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2"
+                class="hidden sm:block absolute bottom-0 right-[-10%] shadow-2xl rounded-t-xl z-10 h-32 w-60 sm:h-44 sm:w-80 transition group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2"
             />
         </div>
         <div class="mt-4 flex flex-row items-center justify-start gap-2 w-full">

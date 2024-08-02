@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { IconArrowBigDownLine } from '@tabler/icons-vue';
+import { IconArrowBigDownLine, IconLink } from '@tabler/icons-vue';
 import { projects } from '~/data/projects';
 import type { ProjectType } from '~/data/types';
 import { getProjectTypeLabel, projectTypes } from '~/data/types';
@@ -34,7 +34,16 @@ watch(currentFilter, (value) => {
 
 <template>
     <section class="flex flex-col gap-3">
-        <h2 class="text-xl font-bold">{{ $t('projects') }}</h2>
+        <a href="#projects">
+            <div class="flex flex-row gap-1 items-center group relative">
+                <IconLink
+                    class="absolute transform -translate-x-5 transition duration-200 opacity-0 w-4 h-4 group-hover:opacity-100"
+                />
+                <h2 class="text-xl font-bold hover:cursor-pointer">
+                    {{ $t('projects') }}
+                </h2>
+            </div>
+        </a>
         <div class="flex flex-wrap gap-1">
             <UButton
                 v-for="(type, index) in projectTypes"

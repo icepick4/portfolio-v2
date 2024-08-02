@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { IconMapPinFilled } from '@tabler/icons-vue';
+import { IconLink, IconMapPinFilled } from '@tabler/icons-vue';
 const { locale, setLocale } = useI18n();
 
 function localeToSet() {
@@ -10,9 +10,18 @@ const { launchConfettis } = useConfettis();
 </script>
 
 <template>
-    <div class="flex items-center justify-between">
+    <div class="flex items-start sm:items-center justify-between">
         <div class="flex flex-col gap-1">
-            <h1 class="text-2xl font-bold">Rémi Jara</h1>
+            <a href="#me">
+                <div class="flex flex-row gap-1 items-center group relative">
+                    <IconLink
+                        class="absolute transform -translate-x-5 transition duration-200 opacity-0 w-4 h-4 group-hover:opacity-100"
+                    />
+                    <h2 class="text-2xl font-bold hover:cursor-pointer">
+                        {{ $t('aboutMe') }}
+                    </h2>
+                </div>
+            </a>
             <div class="my-1">
                 <p class="max-w-md text-sm text-neutral-600">
                     {{ $t('role') }}
@@ -81,7 +90,7 @@ const { launchConfettis } = useConfettis();
         <img
             src="/photo.jpg"
             alt="Rémi Jara"
-            class="w-40 h-40 rounded-full object-cover"
+            class="sm:w-40 sm:h-40 w-20 h-20 rounded-full object-cover"
             @click="launchConfettis()"
         />
     </div>

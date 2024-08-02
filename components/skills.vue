@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { IconLink } from '@tabler/icons-vue';
 import { technos } from '~/data/technos';
 import type { Techno, TechnoType } from '~/data/types';
 import { getTechnoTypeLabel, technoTypes } from '~/data/types';
@@ -19,7 +20,16 @@ watch(currentFilter, (value) => {
 
 <template>
     <section class="flex flex-col gap-3">
-        <h2 class="text-xl font-bold">Technologies</h2>
+        <a href="#technologies">
+            <div class="flex flex-row gap-1 items-center group relative">
+                <IconLink
+                    class="absolute transform -translate-x-5 transition duration-200 opacity-0 w-4 h-4 group-hover:opacity-100"
+                />
+                <h2 class="text-xl font-bold hover:cursor-pointer">
+                    Technologies
+                </h2>
+            </div>
+        </a>
         <div class="flex flex-wrap gap-1">
             <UButton
                 v-for="(type, index) in technoTypes"
@@ -35,7 +45,7 @@ watch(currentFilter, (value) => {
             <UButton
                 v-for="skill in skills"
                 :key="skill.title"
-                class="relative text-center border border-stone-200 p-0.5 rounded-md flex flex-col items-center justify-evenly text-xs w-28 h-28"
+                class="relative text-center border border-stone-200 p-0.5 rounded-md flex flex-col items-center justify-evenly text-xs w-24 h-24 sm:w-28 sm:h-28"
                 square
                 variant="soft"
                 :to="skill.url"

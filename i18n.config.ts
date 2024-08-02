@@ -17,7 +17,7 @@ export default defineI18nConfig(() => ({
                 1: 'As a Full-Stack Developer, I have honed my skills in managing the whole Senzu API, handling the addition of new features and updating dependencies independently. I have also developed modules for various connected devices. This experience has provided me with valuable exposure to the corporate IT world, deepening my understanding of industry practices and workflows.'
             },
             internship: 'Internship',
-            apprenticeship: 'Apprenticeship contract',
+            apprenticeship: 'Apprenticeship',
             cpe: 'Computer Engineering course',
             but: 'Computer Science Bachelor - Application Development',
             experience: 'Experience',
@@ -48,7 +48,7 @@ export default defineI18nConfig(() => ({
                 1: "En tant que développeur Full-Stack, j'ai affiné mes compétences en gérant toute l'API de Senzu, en gérant l'ajout de nouvelles fonctionnalités et la mise à jour des dépendances de manière indépendante. J'ai également développé des modules pour divers appareils connectés. Cette expérience m'a permis d'acquérir une exposition précieuse au monde de l'informatique d'entreprise, approfondissant ma compréhension des pratiques et des flux de travail"
             },
             internship: 'Stage',
-            apprenticeship: "Contrat d'alternance",
+            apprenticeship: 'Alternance',
             cpe: "Cursus d'ingénieur en informatique",
             but: "BUT Informatique - Réalisation d'applications",
             experience: 'Expérience',

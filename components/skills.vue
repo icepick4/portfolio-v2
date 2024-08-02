@@ -19,7 +19,7 @@ watch(currentFilter, (value) => {
 
 <template>
     <section class="flex min-h-0 flex-col gap-3">
-        <h2 class="text-xl font-bold">Skills</h2>
+        <h2 class="text-xl font-bold">Technologies</h2>
         <div class="flex flex-wrap gap-1">
             <UButton
                 v-for="(type, index) in technoTypes"

@@ -40,16 +40,6 @@ export const projects: Project[] = [
         repo_link: 'https://github.com/icepick4/capitalympics'
     },
     {
-        name: 'OnePyece',
-        description:
-            'A Python package serving as an API wrapper for the One Piece universe, allowing users to retrieve data from the series. This project was a learning experience in Python package development and API integration.',
-        type: ['dev-tool', 'favorite'],
-        date: '2023',
-        technos: ['Python', 'PyPi'],
-        link: 'https://pypi.org/project/onepyece/',
-        repo_link: 'https://github.com/icepick4/onepyece'
-    },
-    {
         name: 'Portfolio Levi Lea',
         description:
             'A portfolio website created for Levi Lea, a student graphic designer. The site showcases her work and was developed using Vue.js, TypeScript, and Tailwind CSS.',
@@ -58,6 +48,16 @@ export const projects: Project[] = [
         technos: ['Vue.js', 'TypeScript', 'Tailwind CSS', 'Swiper.js'],
         link: 'https://levilea.fr/',
         repo_link: 'https://github.com/icepick4'
+    },
+    {
+        name: 'OnePyece',
+        description:
+            'A Python package serving as an API wrapper for the One Piece universe, allowing users to retrieve data from the series. This project was a learning experience in Python package development and API integration.',
+        type: ['dev-tool', 'favorite'],
+        date: '2023',
+        technos: ['Python', 'PyPi'],
+        link: 'https://pypi.org/project/onepyece/',
+        repo_link: 'https://github.com/icepick4/onepyece'
     },
     {
         name: 'Sonic Game',

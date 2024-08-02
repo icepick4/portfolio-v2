@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { IconWorld } from '@tabler/icons-vue';
+import { IconMapPinFilled } from '@tabler/icons-vue';
 </script>
 
 <template>
@@ -7,11 +7,13 @@ import { IconWorld } from '@tabler/icons-vue';
         <div class="flex flex-col gap-1">
             <h1 class="text-2xl font-bold">Rémi Jara</h1>
             <div class="my-1">
-                <p class="max-w-md text-sm">
+                <p class="max-w-md text-sm text-neutral-600">
                     DevOps Cloud Engineer & Full Stack Developer
                 </p>
-                <p class="max-w-md items-center text-xs gap-1.5 inline-flex">
-                    <IconWorld class="w-4 h-4" />
+                <p
+                    class="max-w-md items-center text-xs gap-1.5 inline-flex text-neutral-600"
+                >
+                    <IconMapPinFilled class="w-4 h-4" />
                     Lyon, France
                 </p>
             </div>
@@ -49,6 +51,15 @@ import { IconWorld } from '@tabler/icons-vue';
                     variant="soft"
                     square
                     to="mailto:remi.jara4@gmail.com"
+                />
+                <UButton
+                    icon="i-tabler-download"
+                    size="sm"
+                    color="primary"
+                    variant="soft"
+                    square
+                    to="https://flowcv.com/resume/s42pbqpvrc"
+                    target="_blank"
                 />
             </div>
         </div>

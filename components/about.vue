@@ -1,13 +1,13 @@
 <template>
     <section class="flex min-h-0 flex-col gap-3">
-        <h2 class="text-xl font-bold">About</h2>
-        <p class="text-pretty text-sm">
+        <h2 class="text-xl font-bold">About me</h2>
+        <p class="text-pretty text-sm text-neutral-600">
             Hello! I'm a passionate developer with a deep interest in technology
             and all things related to computing. Over the years, I've dedicated
             myself to creating a variety of personal projects, driven by my
             passion for learning and exploring new technologies.
         </p>
-        <p class="text-pretty text-sm">
+        <p class="text-pretty text-sm text-neutral-600">
             I'm proficient in full-stack development and DevOps, with a
             particular focus on Vue.js and Nuxt for web development. On the
             DevOps side, I have experience with tools like GitHub Actions,
@@ -15,7 +15,7 @@
             improving through both personal projects and professional
             experience.
         </p>
-        <p class="text-pretty text-sm">
+        <p class="text-pretty text-sm text-neutral-600">
             I hold a BUT in Computer Science from the University of Lyon 1 and
             am currently pursuing a three-year engineering degree at CPE Lyon,
             specializing in Computer Engineering. I completed an apprenticeship

@@ -37,7 +37,31 @@ type Techno = {
     url: string;
 };
 
-export const projectTypes = ['web', 'game', 'dev-tool', 'scripting'] as const;
+export const projectTypes = [
+    'favorite',
+    'all',
+    'web',
+    'game',
+    'dev-tool',
+    'scripting'
+] as const;
+
+export function getProjectTypeLabel(type: ProjectType) {
+    switch (type) {
+        case 'web':
+            return 'Web';
+        case 'game':
+            return 'Game';
+        case 'dev-tool':
+            return 'Dev Tool';
+        case 'scripting':
+            return 'Scripting';
+        case 'all':
+            return 'All';
+        case 'favorite':
+            return 'Favorite';
+    }
+}
 
 type ProjectType = (typeof projectTypes)[number];
 
@@ -51,4 +75,4 @@ type Project = {
     repo_link: string;
 };
 
-export type { Project, Techno, TechnoType };
+export type { Project, ProjectType, Techno, TechnoType };

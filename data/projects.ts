@@ -5,7 +5,7 @@ export const projects: Project[] = [
         name: 'LyricsLingua',
         description:
             'A web application for translating song lyrics using AI. This project involved learning new technologies like Nuxt, Stripe, and OpenAI integration.',
-        type: ['web'],
+        type: ['web', 'favorite'],
         date: '2024',
         technos: [
             'Nuxt.js',
@@ -23,7 +23,7 @@ export const projects: Project[] = [
         name: 'Capitalympics',
         description:
             'A web application to help users learn about country flags and capitals, offering a focused learning experience based on regions. Built using Vue.js and Tailwind CSS, with backend services hosted via Docker and Nginx.',
-        type: ['web', 'game'],
+        type: ['web', 'game', 'favorite'],
         date: '2023',
         technos: [
             'Vue.js',
@@ -43,7 +43,7 @@ export const projects: Project[] = [
         name: 'OnePyece',
         description:
             'A Python package serving as an API wrapper for the One Piece universe, allowing users to retrieve data from the series. This project was a learning experience in Python package development and API integration.',
-        type: ['dev-tool'],
+        type: ['dev-tool', 'favorite'],
         date: '2023',
         technos: ['Python', 'PyPi'],
         link: 'https://pypi.org/project/onepyece/',
@@ -93,7 +93,7 @@ export const projects: Project[] = [
         name: 'Daily Steam Stats',
         description:
             'This project is a Twitter bot that tweets daily stats about the Steam platform, including trending games, most played games, and peak player counts. Hosted on a TrueNAS server with Docker, I developed this bot using Tweepy to share gaming data and practiced containerization for local hosting.',
-        type: [],
+        type: ['scripting'],
         date: '2022',
         technos: ['Python', 'Tweepy', 'Docker', 'Web Scraping'],
         link: 'https://twitter.com/DailySteamStats',

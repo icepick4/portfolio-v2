@@ -36,13 +36,13 @@
                 success of our initiatives.
             </p>
             <p class="text-xs text-neutral-600">- Technologies:</p>
-            <ul class="ml-4 list-disc list-inside text-xs text-neutral-600">
-                <li>GitHub</li>
-                <li>GitHub Actions</li>
-                <li>Python</li>
-                <li>Terraform</li>
-                <li>AWS</li>
-            </ul>
+            <div class="ml-4 list-disc list-inside text-neutral-600">
+                <Techno techno="GitHub" />
+                <Techno techno="GitHub Actions" />
+                <Techno techno="Python" />
+                <Techno techno="Terraform" />
+                <Techno techno="AWS" />
+            </div>
         </div>
         <div class="flex flex-col gap-2">
             <div class="flex flex-col">
@@ -80,10 +80,12 @@
             </p>
             <p class="text-xs text-neutral-600">- Technologies:</p>
             <ul class="ml-4 list-disc list-inside text-xs text-neutral-600">
-                <li>PHP</li>
-                <li>HTML, CSS, JavaScript</li>
-                <li>Symfony</li>
-                <li>MySQL</li>
+                <Techno techno="PHP" />
+                <Techno techno="JavaScript" />
+                <Techno techno="HTML" />
+                <Techno techno="CSS" />
+                <Techno techno="Symfony" />
+                <Techno techno="MySQL" />
             </ul>
         </div>
     </section>

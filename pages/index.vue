@@ -9,8 +9,9 @@
         >
             <Header />
             <About />
-            <Work />
             <Skills />
+            <Projects />
+            <Work />
         </section>
     </main>
 </template>

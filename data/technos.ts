@@ -1,5 +1,9 @@
 import type { Techno } from './types';
 
+export function findTechnoByTitle(title: string): Techno | undefined {
+    return technos.find((techno) => techno.title === title);
+}
+
 export const technos: Techno[] = [
     {
         title: 'JavaScript',

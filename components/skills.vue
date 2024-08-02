@@ -35,7 +35,7 @@ watch(currentFilter, (value) => {
             <UButton
                 v-for="skill in skills"
                 :key="skill.title"
-                class="relative text-center border border-stone-600 p-1 rounded-md flex flex-col gap-4 items-center text-xs w-28 h-28 justify-start"
+                class="relative text-center border border-stone-200 p-0.5 rounded-md flex flex-col items-center justify-evenly text-xs w-28 h-28"
                 square
                 variant="soft"
                 :to="skill.url"

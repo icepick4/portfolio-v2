@@ -37,16 +37,18 @@ type Techno = {
     url: string;
 };
 
-type Status = 'completed' | 'in-progress' | 'planned';
+export const projectTypes = ['web', 'game', 'dev-tool', 'scripting'] as const;
+
+type ProjectType = (typeof projectTypes)[number];
 
 type Project = {
     name: string;
     description: string;
-    status: Status;
     date: string;
+    type: ProjectType[];
     technos: string[];
     link: string;
     repo_link: string;
 };
 
-export type { Project, Status, Techno, TechnoType };
+export type { Project, Techno, TechnoType };

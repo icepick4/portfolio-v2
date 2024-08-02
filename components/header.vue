@@ -5,6 +5,8 @@ const { locale, setLocale } = useI18n();
 function localeToSet() {
     return locale.value === 'fr' ? 'en' : 'fr';
 }
+
+const { launchConfettis } = useConfettis();
 </script>
 
 <template>
@@ -80,6 +82,7 @@ function localeToSet() {
             src="/photo.jpg"
             alt="Rémi Jara"
             class="w-40 h-40 rounded-full object-cover"
+            @click="launchConfettis()"
         />
     </div>
 </template>

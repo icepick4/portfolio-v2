@@ -8,6 +8,7 @@
             <Header />
             <About />
             <Skills />
+            <Certifications />
             <Projects />
             <Work />
             <Education />

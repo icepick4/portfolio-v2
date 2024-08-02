@@ -28,7 +28,9 @@ export default defineI18nConfig(() => ({
             madeBy: 'Made by',
             with: 'with',
             fullStack: 'Full-Stack Developer',
-            devopsDeveloper: 'DevOps Developer'
+            devopsDeveloper: 'DevOps Developer',
+            githubCert:
+                'I recently passed the GitHub Foundations certification, demonstrating my knowledge of GitHub and its features. This certification is a testament to my expertise in using GitHub for version control, collaboration, open-source projects, good practices, and more. This is my first certification, I am proud to have passed it and I am looking forward to obtaining more certifications in the future.'
         },
         fr: {
             about: {

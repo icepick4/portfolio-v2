@@ -19,14 +19,15 @@ export default defineNuxtConfig({
             useCookie: true,
             cookieKey: 'i18n_redirected',
             redirectOn: 'root'
-        }
+        },
+        defaultLocale: 'en'
     },
     tailwindcss: {
         configPath: 'tailwind.config.js',
         cssPath: '~/assets/css/main.css'
     },
     ui: {
-        icons: ['tabler']
+        icons: ['tabler', 'circle-flags']
     },
     app: {
         head: {

@@ -2,7 +2,7 @@
 
 <template>
     <section class="flex flex-col gap-3">
-        <h2 class="text-xl font-bold">Experience</h2>
+        <h2 class="text-xl font-bold">{{ $t('experience') }}</h2>
         <div class="flex flex-col gap-2">
             <div class="flex flex-col">
                 <div class="flex flex-row items-center justify-between w-full">
@@ -12,8 +12,9 @@
                             href="https://www.sanofi.com"
                             >Sanofi</a
                         >
-                        <p>DevOps Developer</p>
+                        <p>{{ $t('devopsDeveloper') }}</p>
                     </div>
+
                     <div class="flex flex-col items-end gap-0.5">
                         <p class="text-sm">2023 - 2027</p>
                         <p class="text-sm">({{ $t('apprenticeship') }})</p>
@@ -42,8 +43,9 @@
                             href="https://welcome.senzu.app"
                             >Senzu</a
                         >
-                        <p>FullStack Developer</p>
+                        <p>{{ $t('fullStack') }}</p>
                     </div>
+
                     <div class="flex flex-col items-end gap-0.5">
                         <p class="text-sm">April 2023 - June 2023</p>
                         <p class="text-sm">({{ $t('internship') }})</p>

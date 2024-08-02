@@ -1,5 +1,10 @@
 <script setup lang="ts">
 import { IconMapPinFilled } from '@tabler/icons-vue';
+const { locale, setLocale } = useI18n();
+
+function localeToSet() {
+    return locale.value === 'fr' ? 'en' : 'fr';
+}
 </script>
 
 <template>
@@ -8,7 +13,7 @@ import { IconMapPinFilled } from '@tabler/icons-vue';
             <h1 class="text-2xl font-bold">Rémi Jara</h1>
             <div class="my-1">
                 <p class="max-w-md text-sm text-neutral-600">
-                    DevOps Cloud Engineer & Full Stack Developer
+                    {{ $t('role') }}
                 </p>
                 <p
                     class="max-w-md items-center text-xs gap-1.5 inline-flex text-neutral-600"
@@ -61,6 +66,14 @@ import { IconMapPinFilled } from '@tabler/icons-vue';
                     to="https://flowcv.com/resume/s42pbqpvrc"
                     target="_blank"
                 />
+                <UButton icon="i-circle-flags-fr" class="hidden" />
+                <UButton icon="i-circle-flags-en" class="hidden" />
+                <UButton
+                    @click="setLocale(localeToSet())"
+                    variant="soft"
+                    :icon="`i-circle-flags-${localeToSet()}`"
+                >
+                </UButton>
             </div>
         </div>
         <img

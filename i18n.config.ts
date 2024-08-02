@@ -19,7 +19,16 @@ export default defineI18nConfig(() => ({
             internship: 'Internship',
             apprenticeship: 'Apprenticeship contract',
             cpe: 'Computer Engineering course',
-            but: 'Computer Science Bachelor - Application Development'
+            but: 'Computer Science Bachelor - Application Development',
+            experience: 'Experience',
+            role: 'DevOps Cloud Engineer & Full Stack Developer',
+            aboutMe: 'About Me',
+            showAll: 'Show all',
+            showLess: 'Show less',
+            madeBy: 'Made by',
+            with: 'with',
+            fullStack: 'Full-Stack Developer',
+            devopsDeveloper: 'DevOps Developer'
         },
         fr: {
             about: {
@@ -38,7 +47,16 @@ export default defineI18nConfig(() => ({
             internship: 'Stage',
             apprenticeship: "Contrat d'alternance",
             cpe: "Cursus d'ingénieur en informatique",
-            but: "BUT Informatique - Réalisation d'applications"
+            but: "BUT Informatique - Réalisation d'applications",
+            experience: 'Expérience',
+            role: 'Ingénieur Cloud DevOps & Développeur FullStack',
+            aboutMe: 'À Propos de moi',
+            showAll: 'Voir tout',
+            showLess: 'Voir moins',
+            madeBy: 'Fait par',
+            with: 'avec',
+            fullStack: 'Développeur Full-Stack',
+            devopsDeveloper: 'Développeur DevOps'
         }
     }
 }));

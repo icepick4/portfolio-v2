@@ -6,7 +6,7 @@ import { getProjectTypeLabel, projectTypes } from '~/data/types';
 
 const projectsList = ref(projects);
 
-const currentFilter = ref<ProjectType>('favorite');
+const currentFilter = ref<ProjectType>('all');
 filterSkills(currentFilter.value);
 
 const defaultNumberOfProjects = 4;
@@ -58,7 +58,14 @@ watch(currentFilter, (value) => {
                     @click="currentNumberOfProjects = projectsList.length"
                 >
                     <IconArrowBigDownLine class="w-5 h-5" />
-                    Load more
+                    {{ $t('showAll') }}
+                </UButton>
+                <UButton
+                    v-else
+                    @click="currentNumberOfProjects = defaultNumberOfProjects"
+                >
+                    <IconArrowBigDownLine class="w-5 h-5 rotate-180" />
+                    {{ $t('showLess') }}
                 </UButton>
             </div>
         </div>

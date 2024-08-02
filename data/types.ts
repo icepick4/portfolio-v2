@@ -8,23 +8,40 @@ export const technoTypes = [
     'apis-integration'
 ] as const;
 
-export function getTechnoTypeLabel(type: TechnoType) {
-    switch (type) {
-        case 'language':
-            return 'Language';
-        case 'framework':
-            return 'Framework';
-        case 'library':
-            return 'Library';
-        case 'database':
-            return 'Database';
-        case 'development-tool':
-            return 'Development Tool';
-        case 'devops':
-            return 'DevOps';
-        case 'apis-integration':
-            return 'APIs & Integration';
+const technoTypesLabels: Record<TechnoType, Record<string, string>> = {
+    language: {
+        en: 'Language',
+        fr: 'Langage'
+    },
+    framework: {
+        en: 'Framework',
+        fr: 'Framework'
+    },
+    library: {
+        en: 'Library',
+        fr: 'Bibliothèque'
+    },
+    database: {
+        en: 'Database',
+        fr: 'Base de données'
+    },
+    'development-tool': {
+        en: 'Development Tool',
+        fr: 'Outil de développement'
+    },
+    devops: {
+        en: 'DevOps',
+        fr: 'DevOps'
+    },
+    'apis-integration': {
+        en: 'APIs & Integration',
+        fr: 'APIs et intégration'
     }
+};
+
+export function getTechnoTypeLabel(type: TechnoType) {
+    const { locale } = useI18n();
+    return technoTypesLabels[type][locale.value];
 }
 
 type TechnoType = (typeof technoTypes)[number];
@@ -46,28 +63,45 @@ export const projectTypes = [
     'scripting'
 ] as const;
 
-export function getProjectTypeLabel(type: ProjectType) {
-    switch (type) {
-        case 'web':
-            return 'Web';
-        case 'game':
-            return 'Game';
-        case 'dev-tool':
-            return 'Dev Tool';
-        case 'scripting':
-            return 'Scripting';
-        case 'all':
-            return 'All';
-        case 'favorite':
-            return 'Favorite';
+const projectTypesLabels: Record<ProjectType, Record<string, string>> = {
+    favorite: {
+        en: 'Favorite',
+        fr: 'Favoris'
+    },
+    all: {
+        en: 'All',
+        fr: 'Tous'
+    },
+    web: {
+        en: 'Web',
+        fr: 'Web'
+    },
+    game: {
+        en: 'Game',
+        fr: 'Jeux-vidéo'
+    },
+    'dev-tool': {
+        en: 'Dev Tool',
+        fr: 'Outil de développement'
+    },
+    scripting: {
+        en: 'Scripting',
+        fr: 'Script'
     }
+};
+
+export function getProjectTypeLabel(type: ProjectType) {
+    const { locale } = useI18n();
+    return projectTypesLabels[type][locale.value];
 }
 
 type ProjectType = (typeof projectTypes)[number];
 
+type Locale = 'en' | 'fr';
+
 type Project = {
     name: string;
-    description: string;
+    description: Record<Locale, string>;
     date: string;
     type: ProjectType[];
     technos: string[];
@@ -75,4 +109,4 @@ type Project = {
     repo_link: string;
 };
 
-export type { Project, ProjectType, Techno, TechnoType };
+export type { Locale, Project, ProjectType, Techno, TechnoType };

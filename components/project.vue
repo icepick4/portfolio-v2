@@ -2,6 +2,8 @@
 import { IconPlayerPlay } from '@tabler/icons-vue';
 import type { Project } from '~/data/types';
 
+const { locale } = useI18n();
+
 defineProps<{ project: Project }>();
 
 function getProjectImageName(title: string) {
@@ -42,12 +44,16 @@ function getProjectImageName(title: string) {
         </div>
         <div class="mt-4 flex flex-row items-center justify-between w-full">
             <p class="text-xs text-neutral-600 w-1/2">
-                {{ project.description }}
+                {{
+                    locale === 'fr'
+                        ? project.description.fr
+                        : project.description.en
+                }}
             </p>
             <img
                 :src="`/projects/${getProjectImageName(project.name)}.png`"
                 alt="logo"
-                class="absolute bottom-0 right-[-10%] shadow-2xl rounded-t-xl z-10 h-48 w-80 transition group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2"
+                class="absolute bottom-0 right-[-10%] shadow-2xl rounded-t-xl z-10 h-44 w-80 transition group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2"
             />
         </div>
         <div class="mt-4 flex flex-row items-center justify-start gap-2 w-full">
@@ -55,7 +61,7 @@ function getProjectImageName(title: string) {
                 <i class="devicon-github-original"></i> Code
             </UButton>
             <UButton :to="project.link" target="_blank" variant="soft">
-                <IconPlayerPlay class="w-4 h-4" /> Live
+                <IconPlayerPlay class="w-4 h-4" /> {{ $t('view') }}
             </UButton>
         </div>
     </UCard>

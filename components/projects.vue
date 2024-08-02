@@ -33,7 +33,7 @@ watch(currentFilter, (value) => {
 </script>
 
 <template>
-    <section class="flex min-h-0 flex-col gap-3">
+    <section class="flex flex-col gap-3">
         <h2 class="text-xl font-bold">Projects</h2>
         <div class="flex flex-wrap gap-1">
             <UButton

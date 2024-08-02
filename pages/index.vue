@@ -10,6 +10,7 @@
             <Skills />
             <Projects />
             <Work />
+            <Education />
             <Footer />
         </section>
     </div>

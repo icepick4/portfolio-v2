@@ -34,7 +34,7 @@ watch(currentFilter, (value) => {
 
 <template>
     <section class="flex flex-col gap-3">
-        <h2 class="text-xl font-bold">Projects</h2>
+        <h2 class="text-xl font-bold">{{ $t('projects') }}</h2>
         <div class="flex flex-wrap gap-1">
             <UButton
                 v-for="(type, index) in projectTypes"
@@ -61,7 +61,7 @@ watch(currentFilter, (value) => {
                     {{ $t('showAll') }}
                 </UButton>
                 <UButton
-                    v-else
+                    v-else-if="projectsList.length > defaultNumberOfProjects"
                     @click="currentNumberOfProjects = defaultNumberOfProjects"
                 >
                     <IconArrowBigDownLine class="w-5 h-5 rotate-180" />

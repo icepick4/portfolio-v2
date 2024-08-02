@@ -28,7 +28,9 @@ function getProjectImageName(title: string) {
                         :href="project.link"
                         >{{ project.name }}</a
                     >
-                    <div class="flex flex-wrap gap-3 text-neutral-600">
+                    <div
+                        class="flex flex-wrap gap-3 text-neutral-600 dark:text-neutral-400"
+                    >
                         <Techno
                             v-for="techno in project.technos"
                             :key="techno"
@@ -43,7 +45,9 @@ function getProjectImageName(title: string) {
             </div>
         </div>
         <div class="mt-4 flex flex-row items-center justify-between w-full">
-            <p class="text-xs text-neutral-600 w-full sm:w-1/2">
+            <p
+                class="text-xs text-neutral-600 dark:text-neutral-400 w-full sm:w-1/2"
+            >
                 {{
                     locale === 'fr'
                         ? project.description.fr

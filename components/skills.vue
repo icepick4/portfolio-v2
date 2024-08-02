@@ -36,7 +36,7 @@ watch(currentFilter, (value) => {
                 :key="index"
                 @click="currentFilter = type"
                 class="hover:bg-stone-600 hover:text-white"
-                :class="{ 'bg-stone-600 text-white': type === currentFilter }"
+                :class="{ 'bg-stone-600 text-white ': type === currentFilter }"
             >
                 {{ getTechnoTypeLabel(type) }}
             </UButton>
@@ -45,13 +45,15 @@ watch(currentFilter, (value) => {
             <UButton
                 v-for="skill in skills"
                 :key="skill.title"
-                class="relative text-center border border-stone-200 p-0.5 rounded-md flex flex-col items-center justify-evenly text-xs w-24 h-24 sm:w-28 sm:h-28"
+                class="relative text-center border border-stone-200 dark:border-stone-600 p-0.5 rounded-md flex flex-col items-center justify-evenly text-xs w-24 h-24 sm:w-28 sm:h-28"
                 square
                 variant="soft"
                 :to="skill.url"
                 target="_blank"
             >
-                <p class="text-xs font-bold text-stone-800">
+                <p
+                    class="text-xs font-bold text-stone-800 dark:text-neutral-400"
+                >
                     {{ skill.title }}
                 </p>
                 <i

@@ -49,13 +49,16 @@ watch(currentFilter, (value) => {
                 v-for="(type, index) in projectTypes"
                 :key="index"
                 @click="currentFilter = type"
-                class="hover:bg-stone-600 hover:text-white"
-                :class="{ 'bg-stone-600 text-white': type === currentFilter }"
+                class="hover:bg-stone-600 hover:dark:bg-neutral-400 hover:text-white"
+                :class="{
+                    'bg-stone-600 dark:bg-neutral-400 text-white':
+                        type === currentFilter
+                }"
             >
                 {{ getProjectTypeLabel(type) }}
             </UButton>
         </div>
-        <div class="flex flex-col gap-3 bg-white items-center">
+        <div class="flex flex-col gap-3 items-center">
             <Project
                 v-for="i in currentNumberOfProjects"
                 :key="projectsList[i - 1].name"

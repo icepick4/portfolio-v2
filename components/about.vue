@@ -13,13 +13,13 @@ import { IconLink } from '@tabler/icons-vue';
                 </h2>
             </div>
         </a>
-        <p class="text-pretty text-sm text-neutral-600">
+        <p class="text-pretty text-sm text-neutral-600 dark:text-neutral-400">
             {{ $t('about.1') }}
         </p>
-        <p class="text-pretty text-sm text-neutral-600">
+        <p class="text-pretty text-sm text-neutral-600 dark:text-neutral-400">
             {{ $t('about.2') }}
         </p>
-        <p class="text-pretty text-sm text-neutral-600">
+        <p class="text-pretty text-sm text-neutral-600 dark:text-neutral-400">
             {{ $t('about.3') }}
         </p>
     </section>

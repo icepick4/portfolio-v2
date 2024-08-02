@@ -7,27 +7,39 @@ function localeToSet() {
 }
 
 const { launchConfettis } = useConfettis();
+
+const colorMode = useColorMode();
+const isDark = computed({
+    get() {
+        return colorMode.value === 'dark';
+    },
+    set() {
+        colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark';
+    }
+});
 </script>
 
 <template>
     <div class="flex items-start sm:items-center justify-between">
-        <div class="flex flex-col gap-1">
+        <div class="flex flex-col gap-2">
             <a href="#me">
                 <div class="flex flex-row gap-1 items-center group relative">
                     <IconLink
                         class="absolute transform -translate-x-5 transition duration-200 opacity-0 w-4 h-4 group-hover:opacity-100"
                     />
                     <h2 class="text-2xl font-bold hover:cursor-pointer">
-                        {{ $t('aboutMe') }}
+                        Rémi Jara
                     </h2>
                 </div>
             </a>
             <div class="my-1">
-                <p class="max-w-md text-sm text-neutral-600">
+                <p
+                    class="max-w-md text-sm text-neutral-600 dark:text-neutral-400"
+                >
                     {{ $t('role') }}
                 </p>
                 <p
-                    class="max-w-md items-center text-xs gap-1.5 inline-flex text-neutral-600"
+                    class="max-w-md items-center text-xs gap-1.5 inline-flex text-neutral-600 dark:text-neutral-400"
                 >
                     <IconMapPinFilled class="w-4 h-4" />
                     Lyon, France
@@ -69,7 +81,7 @@ const { launchConfettis } = useConfettis();
                     to="mailto:remi.jara4@gmail.com"
                 />
                 <UButton
-                    icon="i-tabler-download"
+                    icon="i-tabler-file"
                     size="sm"
                     color="primary"
                     variant="soft"
@@ -77,14 +89,21 @@ const { launchConfettis } = useConfettis();
                     to="https://flowcv.com/resume/s42pbqpvrc"
                     target="_blank"
                 />
+            </div>
+            <div class="flex flex-row gap-2 items-center">
                 <UButton icon="i-circle-flags-fr" class="hidden" />
                 <UButton icon="i-circle-flags-en" class="hidden" />
                 <UButton
                     @click="setLocale(localeToSet())"
-                    variant="soft"
+                    variant="ghost"
                     :icon="`i-circle-flags-${localeToSet()}`"
                 >
                 </UButton>
+                <UButton
+                    @click="isDark = !isDark"
+                    variant="ghost"
+                    :icon="isDark ? 'i-tabler-moon' : 'i-tabler-sun'"
+                />
             </div>
         </div>
         <img

@@ -38,7 +38,9 @@ useHead({
                             href="https://resources.github.com/learn/certifications/"
                             >GitHub Foundations</a
                         >
-                        <p class="text-xs text-pretty text-neutral-600">
+                        <p
+                            class="text-xs text-pretty text-neutral-600 dark:text-neutral-400"
+                        >
                             {{ $t('githubCert') }}
                         </p>
                     </div>

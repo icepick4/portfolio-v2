@@ -39,10 +39,18 @@ import { IconLink } from '@tabler/icons-vue';
                     </div>
                 </div>
             </div>
-            <p class="text-xs text-neutral-600">- {{ $t('sanofi.1') }}</p>
-            <p class="text-xs text-neutral-600">- {{ $t('sanofi.2') }}</p>
-            <p class="text-xs text-neutral-600">- Technologies:</p>
-            <div class="ml-4 list-disc list-inside text-neutral-600">
+            <p class="text-xs text-neutral-600 dark:text-neutral-400">
+                - {{ $t('sanofi.1') }}
+            </p>
+            <p class="text-xs text-neutral-600 dark:text-neutral-400">
+                - {{ $t('sanofi.2') }}
+            </p>
+            <p class="text-xs text-neutral-600 dark:text-neutral-400">
+                - Technologies:
+            </p>
+            <div
+                class="ml-4 list-disc list-inside text-neutral-600 dark:text-neutral-400"
+            >
                 <Techno techno="GitHub" />
                 <Techno techno="GitHub Actions" />
                 <Techno techno="Python" />
@@ -79,9 +87,15 @@ import { IconLink } from '@tabler/icons-vue';
                     </div>
                 </div>
             </div>
-            <p class="text-xs text-neutral-600">- {{ $t('senzu.1') }}</p>
-            <p class="text-xs text-neutral-600">- Technologies:</p>
-            <ul class="ml-4 list-disc list-inside text-xs text-neutral-600">
+            <p class="text-xs text-neutral-600 dark:text-neutral-400">
+                - {{ $t('senzu.1') }}
+            </p>
+            <p class="text-xs text-neutral-600 dark:text-neutral-400">
+                - Technologies:
+            </p>
+            <ul
+                class="ml-4 list-disc list-inside text-xs text-neutral-600 dark:text-neutral-400"
+            >
                 <Techno techno="PHP" />
                 <Techno techno="JavaScript" />
                 <Techno techno="HTML" />

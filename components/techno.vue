@@ -3,6 +3,8 @@ import { findTechnoByTitle } from '~/data/technos';
 const props = defineProps<{ techno: string; logo?: boolean }>();
 
 const techno = ref(findTechnoByTitle(props.techno));
+
+const colorMode = useColorMode();
 </script>
 
 <template>
@@ -14,8 +16,15 @@ const techno = ref(findTechnoByTitle(props.techno));
         <i
             v-if="techno.icon"
             :class="[
-                `devicon-${techno.icon}-original devicon-${techno.icon}-plain colored`,
-                { 'text-xl': !logo, 'text-3xl': logo }
+                `devicon-${techno.icon}-original devicon-${techno.icon}-plain`,
+                { 'text-xl': !logo, 'text-3xl': logo },
+                {
+                    colored:
+                        (techno.icon !== 'github' &&
+                            techno.icon !== 'symfony' &&
+                            colorMode.value === 'dark') ||
+                        colorMode.value === 'light'
+                }
             ]"
         ></i>
         <img

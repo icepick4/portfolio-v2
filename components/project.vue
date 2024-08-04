@@ -13,11 +13,14 @@ function getProjectImageName(title: string) {
 
 <template>
     <UCard
-        class="relative overflow-hidden group hover:bg-neutral-100 transition duration-300"
+        class="relative overflow-hidden group hover:bg-neutral-100 dark:hover:bg-green-900 transition duration-300"
         :ui="{
             body: {
                 padding: 'px-3 py-4 sm:p-4'
-            }
+            },
+            background:
+                'bg-white dark:bg-green-950 border border-stone-200 dark:border-stone-600',
+            ring: ''
         }"
     >
         <div class="flex flex-col gap-2">
@@ -61,10 +64,10 @@ function getProjectImageName(title: string) {
             />
         </div>
         <div class="mt-4 flex flex-row items-center justify-start gap-2 w-full">
-            <UButton :to="project.repo_link" target="_blank" variant="soft">
+            <UButton :to="project.repo_link" target="_blank" variant="solid">
                 <i class="devicon-github-original"></i> Code
             </UButton>
-            <UButton :to="project.link" target="_blank" variant="soft">
+            <UButton :to="project.link" target="_blank" variant="solid">
                 <IconPlayerPlay class="w-4 h-4" /> {{ $t('view') }}
             </UButton>
         </div>

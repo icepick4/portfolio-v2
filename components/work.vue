@@ -81,7 +81,7 @@ import { IconLink } from '@tabler/icons-vue';
                         <p class="hidden sm:block text-sm">
                             April 2023 - June 2023
                         </p>
-                        <p class="hidden sm:blocktext-sm">
+                        <p class="hidden sm:block text-sm">
                             ({{ $t('internship') }})
                         </p>
                     </div>

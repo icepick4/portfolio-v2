@@ -1,18 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    modules: [
-        '@nuxt/ui',
-        '@nuxt/content',
-        '@nuxtjs/google-fonts',
-        '@nuxtjs/i18n'
-    ],
+    modules: ['@nuxt/ui', '@nuxt/content', '@nuxtjs/i18n'],
     devtools: { enabled: true },
-    googleFonts: {
-        families: {
-            'DM+Sans': true
-        },
-        display: 'swap'
-    },
     i18n: {
         vueI18n: './i18n.config.ts',
         detectBrowserLanguage: {

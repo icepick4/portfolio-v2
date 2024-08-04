@@ -16,6 +16,8 @@ function filterSkills(type: TechnoType) {
 watch(currentFilter, (value) => {
     filterSkills(value);
 });
+
+const colorMode = useColorMode();
 </script>
 
 <template>
@@ -35,9 +37,9 @@ watch(currentFilter, (value) => {
                 v-for="(type, index) in technoTypes"
                 :key="index"
                 @click="currentFilter = type"
-                class="hover:bg-stone-600 hover:dark:bg-neutral-400 hover:text-white"
+                class="hover:bg-stone-600 hover:dark:bg-green-300 hover:text-white"
                 :class="{
-                    'bg-stone-600 dark:bg-neutral-400 text-white ':
+                    'bg-stone-600 dark:bg-green-300 text-white ':
                         type === currentFilter
                 }"
             >
@@ -62,7 +64,16 @@ watch(currentFilter, (value) => {
                 <i
                     v-if="skill.icon"
                     :class="[
-                        `devicon-${skill.icon}-original devicon-${skill.icon}-plain colored`
+                        `devicon-${skill.icon}-original devicon-${skill.icon}-plain`,
+                        {
+                            colored:
+                                (skill.icon !== 'github' &&
+                                    skill.icon !== 'symfony' &&
+                                    skill.icon !== 'threejs' &&
+                                    skill.icon !== 'oauth' &&
+                                    colorMode.value === 'dark') ||
+                                colorMode.value === 'light'
+                        }
                     ]"
                     class="text-5xl"
                 ></i>

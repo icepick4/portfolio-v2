@@ -17,6 +17,10 @@ const isDark = computed({
         colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark';
     }
 });
+
+function rickRoll() {
+    window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');
+}
 </script>
 
 <template>
@@ -103,6 +107,11 @@ const isDark = computed({
                     @click="isDark = !isDark"
                     variant="ghost"
                     :icon="isDark ? 'i-tabler-moon' : 'i-tabler-sun'"
+                />
+                <UButton
+                    @click="rickRoll()"
+                    variant="ghost"
+                    icon="i-tabler-info-circle"
                 />
             </div>
         </div>

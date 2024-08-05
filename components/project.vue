@@ -58,7 +58,7 @@ function getProjectImageName(title: string) {
                 }}
             </p>
             <img
-                :src="`projects/${getProjectImageName(project.name)}.png`"
+                :src="`projects/${getProjectImageName(project.name)}.webp`"
                 alt="logo"
                 class="hidden sm:block absolute bottom-0 right-[-10%] shadow-2xl rounded-t-xl z-10 h-32 w-60 sm:h-44 sm:w-80 transition group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2"
             />

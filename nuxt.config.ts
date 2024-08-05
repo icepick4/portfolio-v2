@@ -37,6 +37,6 @@ export default defineNuxtConfig({
         }
     },
     routeRules: {
-        '/': { prerender: true }
+        '/': { swr: 3600 }
     }
 });

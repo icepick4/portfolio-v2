@@ -13,13 +13,13 @@ function getProjectImageName(title: string) {
 
 <template>
     <UCard
-        class="relative overflow-hidden group hover:bg-neutral-100 dark:hover:bg-green-900 transition duration-300"
+        class="relative overflow-hidden group hover:bg-neutral-100 dark:hover:bg-primary-900 transition duration-300"
         :ui="{
             body: {
                 padding: 'px-3 py-4 sm:p-4'
             },
             background:
-                'bg-white dark:bg-green-950 border border-stone-200 dark:border-stone-600',
+                'bg-white dark:bg-primary-950 border border-stone-200 dark:border-stone-600',
             ring: ''
         }"
     >

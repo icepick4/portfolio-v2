@@ -37,7 +37,7 @@ import { IconLink, IconMapPinFilled } from '@tabler/icons-vue';
                     square
                     to="https://github.com/icepick4"
                     target="_blank"
-                    aria-label="GitHub"
+                    title="GitHub"
                 />
                 <UButton
                     icon="i-tabler-brand-linkedin"
@@ -47,7 +47,7 @@ import { IconLink, IconMapPinFilled } from '@tabler/icons-vue';
                     square
                     to="https://www.linkedin.com/in/remijara/"
                     target="_blank"
-                    aria-label="LinkedIn"
+                    title="LinkedIn"
                 />
                 <UButton
                     icon="i-tabler-phone"
@@ -75,7 +75,7 @@ import { IconLink, IconMapPinFilled } from '@tabler/icons-vue';
                     square
                     to="https://flowcv.com/resume/s42pbqpvrc"
                     target="_blank"
-                    aria-label="Resume"
+                    title="Resume"
                 />
             </div>
             <Settings />

@@ -37,9 +37,9 @@ const colorMode = useColorMode();
                 v-for="(type, index) in technoTypes"
                 :key="index"
                 @click="currentFilter = type"
-                class="hover:bg-stone-600 hover:dark:bg-green-300 hover:text-white"
+                class="hover:bg-stone-600 hover:dark:bg-primary-300 hover:text-white"
                 :class="{
-                    'bg-stone-600 dark:bg-green-300 text-white ':
+                    'bg-stone-600 dark:bg-primary-300 text-white ':
                         type === currentFilter
                 }"
             >

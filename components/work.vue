@@ -93,7 +93,7 @@ import { IconLink } from '@tabler/icons-vue';
             <p class="text-xs text-neutral-600 dark:text-neutral-400">
                 - Technologies:
             </p>
-            <ul
+            <div
                 class="ml-4 list-disc list-inside text-xs text-neutral-600 dark:text-neutral-400"
             >
                 <Techno techno="PHP" size="little" />
@@ -102,7 +102,7 @@ import { IconLink } from '@tabler/icons-vue';
                 <Techno techno="CSS" size="little" />
                 <Techno techno="Symfony" size="little" />
                 <Techno techno="MySQL" size="little" />
-            </ul>
+            </div>
         </div>
     </section>
 </template>

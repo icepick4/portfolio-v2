@@ -13,7 +13,7 @@ const colorMode = useColorMode();
                     >Rémi Jara</a
                 >
                 {{ $t('with') }}
-                <a href="https://vitejs.dev/" class="hover:underline font-bold"
+                <a href="https://nuxt.com/" class="hover:underline font-bold"
                     >Nuxt.js</a
                 >
             </p>

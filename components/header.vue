@@ -1,7 +1,5 @@
 <script setup lang="ts">
 import { IconLink, IconMapPinFilled } from '@tabler/icons-vue';
-
-const { launchConfettis } = useConfettis();
 </script>
 
 <template>
@@ -82,11 +80,17 @@ const { launchConfettis } = useConfettis();
             </div>
             <Settings />
         </div>
-        <img
-            src="/photo.webp"
-            alt="Rémi Jara"
-            class="sm:w-40 sm:h-40 w-20 h-20 rounded-full object-cover hover:cursor-pointer"
-            @click="launchConfettis()"
-        />
+        <ClientOnly>
+            <ConfettisButton>
+                <template v-slot:default="{ onLaunchConfettis }">
+                    <img
+                        src="/photo.webp"
+                        alt="Rémi Jara"
+                        class="sm:w-40 sm:h-40 w-20 h-20 rounded-full object-cover hover:cursor-pointer"
+                        @click="onLaunchConfettis"
+                    />
+                </template>
+            </ConfettisButton>
+        </ClientOnly>
     </div>
 </template>

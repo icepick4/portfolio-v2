@@ -24,7 +24,18 @@ useHead({
                     </h2>
                 </div>
             </a>
-            <ConfettisButton />
+            <ClientOnly>
+                <ConfettisButton>
+                    <template v-slot:default="{ onLaunchConfettis }">
+                        <UButton
+                            icon="i-tabler-confetti"
+                            variant="soft"
+                            label="Confettis"
+                            @click="onLaunchConfettis"
+                        />
+                    </template>
+                </ConfettisButton>
+            </ClientOnly>
         </div>
 
         <div class="flex flex-col gap-2">

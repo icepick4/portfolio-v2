@@ -3,7 +3,9 @@ const colorMode = useColorMode();
 </script>
 
 <template>
-    <div class="border-t border-stone-200 mt-8 py-4 text-center text-xs">
+    <div
+        class="border-t border-stone-200 mt-8 py-4 text-center text-xs flex flex-col gap-2 items-center"
+    >
         <div class="flex flex-row items-center justify-center gap-1.5">
             <p>
                 {{ $t('madeBy') }}
@@ -32,5 +34,6 @@ const colorMode = useColorMode();
                 height="25"
             />
         </div>
+        <Settings />
     </div>
 </template>

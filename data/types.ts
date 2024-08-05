@@ -109,4 +109,9 @@ type Project = {
     repo_link: string;
 };
 
-export type { Locale, Project, ProjectType, Techno, TechnoType };
+type Hobby = {
+    title: Record<Locale, string>;
+    icon: string;
+};
+
+export type { Hobby, Locale, Project, ProjectType, Techno, TechnoType };

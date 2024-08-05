@@ -52,7 +52,7 @@ useHead({
                             target="_blank"
                         >
                             <img
-                                src="/logos/github-badge.png"
+                                src="logos/github-badge.png"
                                 alt="GitHub Cert"
                                 class="w-20 h-18"
                             />

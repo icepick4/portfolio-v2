@@ -29,7 +29,7 @@ const colorMode = useColorMode();
         ></i>
         <img
             v-if="!techno.icon"
-            :src="`/logos/${techno.image}.webp`"
+            :src="`logos/${techno.image}.webp`"
             alt="logo"
             :class="{ 'w-4 h-4': !logo, 'w-8 h-8': logo }"
         />

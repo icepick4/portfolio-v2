@@ -79,7 +79,7 @@ const colorMode = useColorMode();
                 ></i>
                 <img
                     v-if="!skill.icon"
-                    :src="`/logos/${skill.image}.webp`"
+                    :src="`logos/${skill.image}.webp`"
                     alt="logo"
                     class="w-12 h-12"
                 />

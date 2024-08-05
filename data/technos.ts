@@ -42,6 +42,12 @@ export const technos: Techno[] = [
         url: 'https://pygame.org/'
     },
     {
+        title: 'PHP',
+        icon: 'php',
+        type: 'language',
+        url: 'https://www.php.net/'
+    },
+    {
         title: 'C',
         icon: 'c',
         type: 'language',
@@ -60,16 +66,16 @@ export const technos: Techno[] = [
         url: 'https://www.w3schools.com/css/'
     },
     {
+        title: 'Markdown',
+        icon: 'markdown',
+        type: 'language',
+        url: 'https://www.markdownguide.org/'
+    },
+    {
         title: 'SCSS',
         icon: 'sass',
         type: 'library',
         url: 'https://sass-lang.com/'
-    },
-    {
-        title: 'PHP',
-        icon: 'php',
-        type: 'language',
-        url: 'https://www.php.net/'
     },
     {
         title: 'Tailwind CSS',
@@ -148,6 +154,12 @@ export const technos: Techno[] = [
         icon: 'githubactions',
         type: 'devops',
         url: 'https://github.com/features/actions'
+    },
+    {
+        title: 'GitHub Copilot',
+        image: 'githubcopilot',
+        type: 'development-tool',
+        url: 'https://copilot.github.com/'
     },
     {
         title: 'Vercel',

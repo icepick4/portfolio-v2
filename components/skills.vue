@@ -71,6 +71,9 @@ const colorMode = useColorMode();
                                     skill.icon !== 'symfony' &&
                                     skill.icon !== 'threejs' &&
                                     skill.icon !== 'oauth' &&
+                                    skill.icon !== 'linux' &&
+                                    skill.icon !== 'vercel' &&
+                                    skill.icon !== 'markdown' &&
                                     colorMode.value === 'dark') ||
                                 colorMode.value === 'light'
                         }

@@ -78,7 +78,7 @@ const { launchConfettis } = useConfettis();
             <Settings />
         </div>
         <img
-            src="photo.jpg"
+            src="/photo.jpg"
             alt="Rémi Jara"
             class="sm:w-40 sm:h-40 w-20 h-20 rounded-full object-cover hover:cursor-pointer"
             @click="launchConfettis()"

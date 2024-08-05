@@ -28,17 +28,20 @@ function rickRoll() {
             @click="setLocale(localeToSet())"
             variant="ghost"
             :icon="`i-circle-flags-${localeToSet()}`"
+            label="Change language"
         >
         </UButton>
         <UButton
             @click="isDark = !isDark"
             variant="ghost"
             :icon="isDark ? 'i-tabler-moon' : 'i-tabler-sun'"
+            label="Dark mode"
         />
         <UButton
             @click="rickRoll()"
             variant="ghost"
             icon="i-tabler-info-circle"
+            label="Infos"
         />
     </div>
 </template>

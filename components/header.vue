@@ -39,6 +39,7 @@ const { launchConfettis } = useConfettis();
                     square
                     to="https://github.com/icepick4"
                     target="_blank"
+                    aria-label="GitHub"
                 />
                 <UButton
                     icon="i-tabler-brand-linkedin"
@@ -48,6 +49,7 @@ const { launchConfettis } = useConfettis();
                     square
                     to="https://www.linkedin.com/in/remijara/"
                     target="_blank"
+                    aria-label="LinkedIn"
                 />
                 <UButton
                     icon="i-tabler-phone"
@@ -56,6 +58,7 @@ const { launchConfettis } = useConfettis();
                     variant="soft"
                     square
                     to="tel:+33771675362"
+                    arial-label="Phone"
                 />
                 <UButton
                     icon="i-tabler-mail"
@@ -64,6 +67,7 @@ const { launchConfettis } = useConfettis();
                     variant="soft"
                     square
                     to="mailto:remi.jara4@gmail.com"
+                    arial-label="Email"
                 />
                 <UButton
                     icon="i-tabler-file"
@@ -73,6 +77,7 @@ const { launchConfettis } = useConfettis();
                     square
                     to="https://flowcv.com/resume/s42pbqpvrc"
                     target="_blank"
+                    aria-label="Resume"
                 />
             </div>
             <Settings />

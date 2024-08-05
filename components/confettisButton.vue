@@ -7,6 +7,7 @@ const { launchConfettis } = useConfettis();
             icon="i-tabler-confetti"
             @click="launchConfettis()"
             variant="soft"
+            label="Confettis"
         />
     </div>
 </template>

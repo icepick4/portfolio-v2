@@ -51,11 +51,11 @@ import { IconLink } from '@tabler/icons-vue';
             <div
                 class="ml-4 list-disc list-inside text-neutral-600 dark:text-neutral-400"
             >
-                <Techno techno="GitHub" />
-                <Techno techno="GitHub Actions" />
-                <Techno techno="Python" />
-                <Techno techno="Terraform" />
-                <Techno techno="AWS" />
+                <Techno techno="GitHub" size="little" />
+                <Techno techno="GitHub Actions" size="little" />
+                <Techno techno="Python" size="little" />
+                <Techno techno="Terraform" size="little" />
+                <Techno techno="AWS" size="little" />
             </div>
         </div>
         <div class="flex flex-col gap-2">
@@ -96,12 +96,12 @@ import { IconLink } from '@tabler/icons-vue';
             <ul
                 class="ml-4 list-disc list-inside text-xs text-neutral-600 dark:text-neutral-400"
             >
-                <Techno techno="PHP" />
-                <Techno techno="JavaScript" />
-                <Techno techno="HTML" />
-                <Techno techno="CSS" />
-                <Techno techno="Symfony" />
-                <Techno techno="MySQL" />
+                <Techno techno="PHP" size="little" />
+                <Techno techno="JavaScript" size="little" />
+                <Techno techno="HTML" size="little" />
+                <Techno techno="CSS" size="little" />
+                <Techno techno="Symfony" size="little" />
+                <Techno techno="MySQL" size="little" />
             </ul>
         </div>
     </section>

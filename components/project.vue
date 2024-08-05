@@ -38,7 +38,7 @@ function getProjectImageName(title: string) {
                             v-for="techno in project.technos"
                             :key="techno"
                             :techno="techno"
-                            :logo="true"
+                            size="medium"
                         />
                     </div>
                 </div>

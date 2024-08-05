@@ -26,7 +26,9 @@ export default defineNuxtConfig({
                     type: 'text/css',
                     href: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css'
                 }
-            ]
+            ],
+            charset: 'utf-8',
+            viewport: 'width=device-width, initial-scale=1'
         }
     },
     ssr: false

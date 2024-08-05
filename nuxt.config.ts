@@ -22,9 +22,11 @@ export default defineNuxtConfig({
         head: {
             link: [
                 {
-                    rel: 'stylesheet',
+                    rel: 'preload',
+                    as: 'style',
                     type: 'text/css',
-                    href: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css'
+                    href: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css',
+                    onload: "this.onload=null;this.rel='stylesheet'"
                 }
             ],
             charset: 'utf-8',

@@ -5,11 +5,13 @@ const _ = [
     'i-fluent-emoji-flat-skateboard',
     'i-fluent-emoji-flat-joystick',
     'i-fluent-emoji-flat-desktop-computer',
-    'i-tabler-code',
+    'i-fluent-emoji-flat-keyboard',
     'i-fluent-emoji-flat-man-running'
 ];
 
 const { locale } = useI18n();
+
+const { launchConfettis } = useConfettis();
 </script>
 
 <template>
@@ -26,9 +28,10 @@ const { locale } = useI18n();
             <UButton
                 v-for="hobby in hobbies"
                 :key="locale == 'en' ? hobby.title.en : hobby.title.fr"
-                class="relative text-center border border-stone-200 dark:border-stone-600 p-0.5 rounded-md flex flex-col items-center justify-evenly text-xs w-24 h-24 sm:w-28 sm:h-28"
+                class="relative text-center border border-stone-200 dark:border-stone-600 p-0.5 rounded-md flex flex-col items-center justify-evenly text-xs w-24 h-24 sm:w-28 sm:h-28 group"
                 square
                 variant="soft"
+                @click="launchConfettis(hobby.emoji)"
             >
                 <p
                     class="text-xs font-bold text-stone-800 dark:text-neutral-400"
@@ -37,10 +40,8 @@ const { locale } = useI18n();
                 </p>
                 <i
                     v-if="hobby.icon"
-                    :class="[
-                        `i-fluent-emoji-flat-${hobby.icon} i-tabler-${hobby.icon}`
-                    ]"
-                    class="text-5xl"
+                    :class="[`i-fluent-emoji-flat-${hobby.icon}`]"
+                    class="text-5xl group-hover:scale-125 transition-all duration-200"
                 ></i>
             </UButton>
         </div>

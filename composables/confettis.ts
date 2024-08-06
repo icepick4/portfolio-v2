@@ -4,18 +4,26 @@ export function useConfettis() {
     const jsConfetti = new JSConfetti();
     const confettisActive = ref(false);
 
-    async function launchConfettis() {
+    async function launchConfettis(emoji?: string) {
+        let confettis;
+        if (emoji) {
+            confettis = {
+                emojis: [emoji],
+                emojiSize: 75,
+                confettiNumber: 75
+            };
+        } else {
+            confettis = {
+                confettiRadius: 7,
+                confettiNumber: 75
+            };
+        }
         if (!confettisActive.value) {
             confettisActive.value = true;
-            jsConfetti
-                .addConfetti({
-                    confettiRadius: 7,
-                    confettiNumber: 75
-                })
-                .then(() => {
-                    jsConfetti.clearCanvas();
-                    confettisActive.value = false;
-                });
+            jsConfetti.addConfetti(confettis).then(() => {
+                jsConfetti.clearCanvas();
+                confettisActive.value = false;
+            });
         }
     }
 

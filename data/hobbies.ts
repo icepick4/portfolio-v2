@@ -6,34 +6,39 @@ export const hobbies: Hobby[] = [
             en: 'Skateboarding',
             fr: 'Skateboard'
         },
-        icon: 'skateboard'
+        icon: 'skateboard',
+        emoji: '🛹'
     },
     {
         title: {
             en: 'Gaming',
             fr: 'Jeux-vidéo'
         },
-        icon: 'joystick'
+        icon: 'joystick',
+        emoji: '🕹️'
     },
     {
         title: {
             en: 'Programming',
             fr: 'Programmation'
         },
-        icon: 'code'
+        icon: 'keyboard',
+        emoji: '⌨️'
     },
     {
         title: {
             en: 'Computer Science',
             fr: 'Informatique'
         },
-        icon: 'desktop-computer'
+        icon: 'desktop-computer',
+        emoji: '🖥️'
     },
     {
         title: {
             en: 'Running',
             fr: 'Course à pied'
         },
-        icon: 'man-running'
+        icon: 'man-running',
+        emoji: '🏃‍♂️'
     }
 ];

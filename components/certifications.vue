@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { IconLink } from '@tabler/icons-vue';
+import { IconExternalLink, IconLink } from '@tabler/icons-vue';
 useHead({
     script: [
         {
@@ -61,11 +61,15 @@ useHead({
                         <a
                             href="https://www.credly.com/badges/73b09490-6836-4bc1-b934-8238c75d4d0d/public_url"
                             target="_blank"
+                            class="group relative"
                         >
                             <img
                                 src="/logos/github-badge.webp"
                                 alt="GitHub Cert"
                                 class="w-20 h-18"
+                            />
+                            <IconExternalLink
+                                class="w-5 h-5 opacity-0 group-hover:opacity-100 transition duration-300 absolute"
                             />
                         </a>
                     </div>

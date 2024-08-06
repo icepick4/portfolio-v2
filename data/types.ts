@@ -112,6 +112,7 @@ type Project = {
 type Hobby = {
     title: Record<Locale, string>;
     icon: string;
+    emoji: string;
 };
 
 export type { Hobby, Locale, Project, ProjectType, Techno, TechnoType };

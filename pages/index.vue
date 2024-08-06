@@ -12,7 +12,9 @@
             <Skills id="technologies" />
             <Certifications id="certifications" />
             <Education id="education" />
-            <Hobbies id="hobbies" />
+            <ClientOnly>
+                <Hobbies id="hobbies" />
+            </ClientOnly>
             <Footer />
         </section>
     </div>

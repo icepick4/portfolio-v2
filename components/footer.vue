@@ -1,6 +1,4 @@
-<script setup lang="ts">
-const colorMode = useColorMode();
-</script>
+<script setup lang="ts"></script>
 
 <template>
     <div
@@ -20,18 +18,10 @@ const colorMode = useColorMode();
                 >
             </p>
             <img
-                v-if="colorMode.value == 'light'"
-                src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Black%20Heart.png"
-                alt="Black Heart"
+                src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Red%20Heart.png"
+                alt="Red Heart"
                 width="23"
                 height="23"
-            />
-            <img
-                v-else
-                src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Red%20Heart.png"
-                alt="Blue Heart"
-                width="25"
-                height="25"
             />
         </div>
         <Settings />

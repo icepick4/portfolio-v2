@@ -6,7 +6,7 @@ export function useConfettis() {
 
     async function launchConfettis(emoji?: string) {
         let confettis;
-        if (emoji) {
+        if (typeof emoji === 'string') {
             confettis = {
                 emojis: [emoji],
                 emojiSize: 75,

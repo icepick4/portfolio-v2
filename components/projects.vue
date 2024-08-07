@@ -1,34 +1,30 @@
 <script setup lang="ts">
 import { IconArrowBigDownLine, IconLink } from '@tabler/icons-vue';
 import { projects } from '~/data/projects';
-import type { ProjectType } from '~/data/types';
+import type { Project, ProjectType } from '~/data/types';
 import { getProjectTypeLabel, projectTypes } from '~/data/types';
 
-const projectsList = ref(projects);
+const projectsList = ref<Project[]>([]);
 
-const currentFilter = ref<ProjectType>('all');
-filterSkills(currentFilter.value);
+const currentFilter = ref<ProjectType>('favorite');
 
 const defaultNumberOfProjects = 4;
-
-const currentNumberOfProjects = ref(
-    projectsList.value.length > defaultNumberOfProjects
-        ? defaultNumberOfProjects
-        : projectsList.value.length
-);
+const currentNumberOfProjects = ref(0);
 
 function filterSkills(type: ProjectType) {
-    projectsList.value = projects.filter(
-        (project) => project.type.includes(type) || type === 'all'
+    projectsList.value = projects.filter((project) =>
+        project.type.includes(type)
     );
-}
-
-watch(currentFilter, (value) => {
-    filterSkills(value);
     currentNumberOfProjects.value =
         projectsList.value.length > defaultNumberOfProjects
             ? defaultNumberOfProjects
             : projectsList.value.length;
+}
+
+filterSkills(currentFilter.value);
+
+watch(currentFilter, (value) => {
+    filterSkills(value);
 });
 </script>
 
@@ -45,18 +41,20 @@ watch(currentFilter, (value) => {
             </div>
         </a>
         <div class="flex flex-wrap gap-1">
-            <UButton
-                v-for="(type, index) in projectTypes"
-                :key="index"
-                @click="currentFilter = type"
-                class="hover:bg-stone-600 hover:dark:bg-primary-300 hover:text-white"
-                :class="{
-                    'bg-stone-600 dark:bg-primary-300 text-white':
-                        type === currentFilter
-                }"
-            >
-                {{ getProjectTypeLabel(type) }}
-            </UButton>
+            <ClientOnly>
+                <UButton
+                    v-for="(type, index) in projectTypes"
+                    :key="index"
+                    @click="currentFilter = type"
+                    class="hover:bg-stone-600 hover:dark:bg-primary-300 hover:text-white"
+                    :class="{
+                        'bg-stone-600 dark:bg-primary-300 text-white':
+                            type === currentFilter
+                    }"
+                >
+                    {{ getProjectTypeLabel(type) }}
+                </UButton>
+            </ClientOnly>
         </div>
         <div class="flex flex-col gap-3 items-center">
             <Project

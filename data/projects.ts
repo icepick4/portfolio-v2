@@ -44,16 +44,16 @@ export const projects: Project[] = [
         repo_link: 'https://github.com/icepick4/capitalympics'
     },
     {
-        name: 'Portfolio Levi Lea',
+        name: 'Portfolio',
         description: {
-            en: 'A portfolio website created for Levi Lea, a student graphic designer. The site showcases her work and was developed using Vue.js, TypeScript, and Tailwind CSS.',
-            fr: 'Un site web de portfolio créé pour Levi Lea, une étudiante en design graphique. Le site présente son travail et a été développé en utilisant Vue.js, TypeScript et Tailwind CSS.'
+            en: 'My personal portfolio website, showcasing my projects, skills, professionnal experience, and even more ! This project was developed using Nuxt.js, TailWind CSS, and TypeScript, focusing on responsive design and accessibility. The design is very clean, minimalist, and modern.',
+            fr: "Mon site web de portfolio personnel, présentant mes projets, compétences, expérience professionnelle, et plus encore ! Ce projet a été développé en utilisant Nuxt.js, TailWind CSS, et TypeScript, en mettant l'accent sur le design responsive et l'accessibilité. Le design est très propre, minimaliste, et moderne."
         },
-        type: ['web'],
-        date: '2023',
-        technos: ['Vue.js', 'TypeScript', 'Tailwind CSS', 'Swiper.js'],
-        link: 'https://levilea.fr/',
-        repo_link: 'https://github.com/icepick4'
+        type: ['web', 'favorite'],
+        date: '2024',
+        technos: ['Nuxt.js', 'TypeScript', 'Tailwind CSS'],
+        link: 'https://www.remi-jara.fr/',
+        repo_link: 'https://github.com/icepick4/portfolio-v2/'
     },
     {
         name: 'OnePyece',
@@ -66,6 +66,18 @@ export const projects: Project[] = [
         technos: ['Python', 'PyPi'],
         link: 'https://pypi.org/project/onepyece/',
         repo_link: 'https://github.com/icepick4/onepyece'
+    },
+    {
+        name: 'Portfolio Levi Lea',
+        description: {
+            en: 'A portfolio website created for Levi Lea, a student graphic designer. The site showcases her work and was developed using Vue.js, TypeScript, and Tailwind CSS.',
+            fr: 'Un site web de portfolio créé pour Levi Lea, une étudiante en design graphique. Le site présente son travail et a été développé en utilisant Vue.js, TypeScript et Tailwind CSS.'
+        },
+        type: ['web'],
+        date: '2023',
+        technos: ['Vue.js', 'TypeScript', 'Tailwind CSS', 'Swiper.js'],
+        link: 'https://levilea.fr/',
+        repo_link: 'https://github.com/icepick4'
     },
     {
         name: 'Sonic Game',

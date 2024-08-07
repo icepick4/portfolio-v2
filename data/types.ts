@@ -56,7 +56,6 @@ type Techno = {
 
 export const projectTypes = [
     'favorite',
-    'all',
     'game',
     'web',
     'dev-tool',
@@ -67,10 +66,6 @@ const projectTypesLabels: Record<ProjectType, Record<string, string>> = {
     favorite: {
         en: 'Favorite',
         fr: 'Favoris'
-    },
-    all: {
-        en: 'All',
-        fr: 'Tous'
     },
     game: {
         en: 'Game',

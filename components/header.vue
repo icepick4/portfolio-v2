@@ -4,7 +4,7 @@ import { IconLink, IconMapPinFilled } from '@tabler/icons-vue';
 
 <template>
     <div class="flex items-start sm:items-center justify-between">
-        <div class="flex flex-col gap-2">
+        <div class="flex flex-col gap-2 w-2/3">
             <a href="#me">
                 <div class="flex flex-row gap-1 items-center group relative">
                     <IconLink
@@ -86,8 +86,8 @@ import { IconLink, IconMapPinFilled } from '@tabler/icons-vue';
                     <img
                         src="/photo.webp"
                         alt="Rémi Jara"
-                        class="sm:w-40 sm:h-40 w-20 h-20 rounded-full object-cover hover:cursor-pointer"
-                        @click="onLaunchConfettis"
+                        class="sm:w-40 sm:h-40 w-24 h-24 rounded-full object-cover hover:cursor-pointer"
+                        @click="onLaunchConfettis()"
                     />
                 </template>
             </ConfettisButton>

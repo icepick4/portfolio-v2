@@ -41,20 +41,18 @@ watch(currentFilter, (value) => {
             </div>
         </a>
         <div class="flex flex-wrap gap-1">
-            <ClientOnly>
-                <UButton
-                    v-for="(type, index) in projectTypes"
-                    :key="index"
-                    @click="currentFilter = type"
-                    class="hover:bg-stone-600 hover:dark:bg-primary-300 hover:text-white"
-                    :class="{
-                        'bg-stone-600 dark:bg-primary-300 text-white':
-                            type === currentFilter
-                    }"
-                >
-                    {{ getProjectTypeLabel(type) }}
-                </UButton>
-            </ClientOnly>
+            <UButton
+                v-for="(type, index) in projectTypes"
+                :key="index"
+                @click="currentFilter = type"
+                class="hover:bg-stone-600 hover:dark:bg-primary-300 hover:text-white"
+                :class="{
+                    'bg-stone-600 dark:bg-primary-300 text-white':
+                        type === currentFilter
+                }"
+            >
+                {{ getProjectTypeLabel(type) }}
+            </UButton>
         </div>
         <div class="flex flex-col gap-3 items-center">
             <Project

@@ -1,75 +1,13 @@
-# Nuxt 3 Minimal Starter
+[remi-jara](https://www.remi-jara.fr)
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+[![Website](https://img.shields.io/website?style=for-the-badge&url=http%3A%2F%2Fremi-jara.fr)](http://remi-jara.fr)
 
-## Setup
+Check out my personal portfolio! This site showcases my projects, skills, and experiences. Explore to learn more about my work and me.
 
-Make sure to install the dependencies:
+### Technologies Used 🛠️
 
-```bash
-# npm
-npm install
+Nuxt.js, TypeScript, Tailwind CSS, NuxtUI
 
-# pnpm
-pnpm install
+---
 
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Made by Rémi Jara with Nuxt.js ❤️

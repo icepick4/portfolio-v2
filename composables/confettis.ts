@@ -20,16 +20,8 @@ export function useConfettis() {
         }
         if (confettisCounter.value < 3) {
             confettisCounter.value++;
-            console.log(
-                'confettis appear, total on board:',
-                confettisCounter.value
-            );
             jsConfetti.addConfetti(confettis).then(() => {
                 confettisCounter.value--;
-                console.log(
-                    'confettis disappear, total on board:',
-                    confettisCounter.value
-                );
             });
         } else if (confettisCounter.value === 0) {
             jsConfetti.clearCanvas();

@@ -2,14 +2,14 @@ import JSConfetti from 'js-confetti';
 
 export function useConfettis() {
     const jsConfetti = new JSConfetti();
-    const confettisActive = ref(false);
+    const confettisCounter = ref(0);
 
     async function launchConfettis(emoji?: string) {
         let confettis;
         if (typeof emoji === 'string') {
             confettis = {
                 emojis: [emoji],
-                emojiSize: 75,
+                emojiSize: 50,
                 confettiNumber: 75
             };
         } else {
@@ -18,12 +18,21 @@ export function useConfettis() {
                 confettiNumber: 75
             };
         }
-        if (!confettisActive.value) {
-            confettisActive.value = true;
+        if (confettisCounter.value < 3) {
+            confettisCounter.value++;
+            console.log(
+                'confettis appear, total on board:',
+                confettisCounter.value
+            );
             jsConfetti.addConfetti(confettis).then(() => {
-                jsConfetti.clearCanvas();
-                confettisActive.value = false;
+                confettisCounter.value--;
+                console.log(
+                    'confettis disappear, total on board:',
+                    confettisCounter.value
+                );
             });
+        } else if (confettisCounter.value === 0) {
+            jsConfetti.clearCanvas();
         }
     }
 

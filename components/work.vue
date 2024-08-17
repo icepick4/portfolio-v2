@@ -17,8 +17,10 @@ import { IconLink } from '@tabler/icons-vue';
         <div class="flex flex-col gap-2">
             <div class="flex flex-col">
                 <div class="flex flex-row items-center justify-between w-full">
-                    <div class="flex flex-col items-start">
-                        <div class="flex flex-row gap-2 items-center">
+                    <div class="flex flex-col gap-1 items-start">
+                        <div
+                            class="flex justify-start flex-col sm:flex-row gap-1 sm:gap-2 items-start"
+                        >
                             <a
                                 class="text-lg font-bold hover:underline"
                                 href="https://www.sanofi.com"
@@ -63,8 +65,10 @@ import { IconLink } from '@tabler/icons-vue';
                 <div
                     class="flex flex-row gap-1 items-center justify-between w-full"
                 >
-                    <div class="flex flex-col items-start">
-                        <div class="flex flex-row gap-2 items-center">
+                    <div class="flex flex-col gap-1 items-start">
+                        <div
+                            class="flex justify-start flex-col sm:flex-row gap-1 sm:gap-2 items-start"
+                        >
                             <a
                                 class="text-lg font-bold hover:underline"
                                 href="https://welcome.senzu.app"

@@ -34,7 +34,7 @@ const titlesEN = {
         :key="competence.id"
         class="bg-white dark:bg-neutral-800 shadow-md rounded-lg p-4 transition-all hover:shadow-lg"
     >
-        <h2 class="text-2xl font-bold mb-2">{{ competence.name }}</h2>
+        <h2 class="text-2xl font-bold mb-2 underline">{{ competence.name }}</h2>
 
         <p class="text-sm text-neutral-600 dark:text-neutral-400 mb-4">
             {{ competence.summary }}

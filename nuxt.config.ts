@@ -16,7 +16,7 @@ export default defineNuxtConfig({
         cssPath: '~/assets/css/main.css'
     },
     ui: {
-        icons: ['tabler', 'circle-flags', 'fluent-emoji-flat']
+        icons: ['tabler', 'circle-flags', 'fluent-emoji-flat', 'mdi']
     },
     app: {
         head: {

@@ -135,7 +135,7 @@ export const projects: Project[] = [
         },
         type: ['game'],
         date: '2022',
-        technos: ['Python', 'Pygame', 'Data Management'],
+        technos: ['Python', 'Pygame'],
         link: 'https://github.com/icepick4/timer-stats-rubiks-cube/archive/refs/heads/main.zip',
         repo_link: 'https://github.com/icepick4/timer-stats-rubiks-cube'
     },

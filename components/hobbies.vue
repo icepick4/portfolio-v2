@@ -21,20 +21,20 @@ const { launchConfettis } = useConfettis();
                 <IconLink
                     class="absolute transform -translate-x-5 transition duration-200 opacity-0 w-4 h-4 group-hover:opacity-100"
                 />
-                <h2 class="text-xl font-bold hover:cursor-pointer">Hobbies</h2>
+                <h2 class="text-2xl font-bold hover:cursor-pointer">Hobbies</h2>
             </div>
         </a>
         <div class="flex flex-wrap gap-1.5">
             <UButton
                 v-for="hobby in hobbies"
                 :key="locale == 'en' ? hobby.title.en : hobby.title.fr"
-                class="relative text-center border border-stone-200 dark:border-stone-600 p-0.5 rounded-md flex flex-col items-center justify-evenly text-xs w-24 h-24 sm:w-28 sm:h-28 group"
+                class="relative text-center border border-stone-200 dark:border-stone-600 p-0.5 rounded-md flex flex-col items-center justify-evenly text-base w-24 h-24 sm:w-32 sm:h-32 group"
                 square
                 variant="soft"
                 @click="launchConfettis(hobby.emoji)"
             >
                 <p
-                    class="text-xs font-bold text-stone-800 dark:text-neutral-400"
+                    class="text-base font-bold text-stone-800 dark:text-neutral-400"
                 >
                     {{ locale == 'en' ? hobby.title.en : hobby.title.fr }}
                 </p>

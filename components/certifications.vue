@@ -19,7 +19,7 @@ useHead({
                     <IconLink
                         class="absolute transform -translate-x-5 transition duration-200 opacity-0 w-4 h-4 group-hover:opacity-100"
                     />
-                    <h2 class="text-xl font-bold hover:cursor-pointer">
+                    <h2 class="text-2xl font-bold hover:cursor-pointer">
                         Certifications
                     </h2>
                 </div>
@@ -45,19 +45,19 @@ useHead({
                 >
                     <div class="flex flex-col items-start w-5/6">
                         <a
-                            class="text-lg font-bold hover:underline"
+                            class="text-xl font-bold hover:underline"
                             href="https://resources.github.com/learn/certifications/"
                             >GitHub Foundations</a
                         >
                         <p
-                            class="text-xs text-pretty text-neutral-600 dark:text-neutral-400"
+                            class="text-base text-pretty text-neutral-600 dark:text-neutral-400"
                         >
                             {{ $t('githubCert') }}
                         </p>
                     </div>
 
                     <div class="flex flex-col items-end gap-0.5">
-                        <p class="text-sm mb-1.5">2024</p>
+                        <p class="text-base mb-1.5">2024</p>
                         <a
                             href="https://www.credly.com/badges/73b09490-6836-4bc1-b934-8238c75d4d0d/public_url"
                             target="_blank"

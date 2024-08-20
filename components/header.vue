@@ -17,12 +17,12 @@ import { IconLink, IconMapPinFilled } from '@tabler/icons-vue';
             </a>
             <div class="my-1">
                 <p
-                    class="max-w-md text-sm text-neutral-600 dark:text-neutral-400"
+                    class="max-w-md text-lg text-neutral-600 dark:text-neutral-400"
                 >
                     {{ $t('role') }}
                 </p>
                 <p
-                    class="max-w-md items-center text-xs gap-1.5 inline-flex text-neutral-600 dark:text-neutral-400"
+                    class="max-w-md items-center text-lg gap-1.5 inline-flex text-neutral-600 dark:text-neutral-400"
                 >
                     <IconMapPinFilled class="w-4 h-4" />
                     Lyon, France

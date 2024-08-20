@@ -27,7 +27,7 @@ function getProjectImageName(title: string) {
             <div class="flex flex-row items-start justify-between w-full">
                 <div class="flex flex-col gap-1 items-start">
                     <a
-                        class="text-lg font-bold hover:underline"
+                        class="text-xl font-bold hover:underline"
                         :href="project.link"
                         >{{ project.name }}</a
                     >
@@ -43,13 +43,13 @@ function getProjectImageName(title: string) {
                     </div>
                 </div>
                 <div class="flex flex-col items-end gap-0.5">
-                    <p class="text-sm">{{ project.date }}</p>
+                    <p class="text-lg">{{ project.date }}</p>
                 </div>
             </div>
         </div>
         <div class="mt-4 flex flex-row items-center justify-between w-full">
             <p
-                class="text-xs text-neutral-600 dark:text-neutral-400 w-full sm:w-1/2"
+                class="text-sm text-neutral-600 dark:text-neutral-400 w-full sm:w-1/2"
             >
                 {{
                     locale === 'fr'

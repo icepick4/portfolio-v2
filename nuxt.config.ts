@@ -9,7 +9,7 @@ export default defineNuxtConfig({
             cookieKey: 'i18n_redirected',
             redirectOn: 'root'
         },
-        defaultLocale: 'en'
+        defaultLocale: 'fr'
     },
     tailwindcss: {
         configPath: 'tailwind.config.js',

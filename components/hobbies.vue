@@ -38,11 +38,11 @@ const { launchConfettis } = useConfettis();
                 >
                     {{ locale == 'en' ? hobby.title.en : hobby.title.fr }}
                 </p>
-                <i
+                <UIcon
                     v-if="hobby.icon"
-                    :class="[`i-fluent-emoji-flat-${hobby.icon}`]"
                     class="text-5xl group-hover:scale-125 transition-all duration-200"
-                ></i>
+                    :name="`i-fluent-emoji-flat-${hobby.icon}`"
+                />
             </UButton>
         </div>
     </section>

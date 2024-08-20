@@ -15,9 +15,6 @@ export default defineNuxtConfig({
         configPath: 'tailwind.config.js',
         cssPath: '~/assets/css/main.css'
     },
-    ui: {
-        icons: ['tabler', 'circle-flags', 'fluent-emoji-flat', 'mdi']
-    },
     app: {
         head: {
             link: [

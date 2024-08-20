@@ -77,8 +77,8 @@ export default defineI18nConfig(() => ({
                         description:
                             'The main objective of this mission was to update the API using <b>Symfony 6</b> and <b>PHP 8</b> to resolve issues related to latency and malfunctions. Thanks to the training in <b>PHP</b> and <b>Symfony</b> provided during my BUT, I was able to reimplement several features to ensure compatibility with these new versions while getting familiar with significant changes in Symfony, especially regarding <u>authentication</u>. This update required a thorough analysis of the existing code, identifying incompatibilities, and making the necessary adjustments. The knowledge gained in <u>API management</u> and <u>web technologies</u> during my BUT played a crucial role in the success of this project. The new version of the API was successfully deployed before the end of my internship, followed by rigorous monitoring to correct any potential errors.',
                         key_skills: [
-                            'Symfony 6',
-                            'PHP 8',
+                            'Symfony',
+                            'PHP',
                             'Authentication',
                             'API management',
                             'Web Technologies'
@@ -197,8 +197,8 @@ export default defineI18nConfig(() => ({
                         description:
                             "L'objectif principal de cette mission était de mettre à jour l'API en utilisant <b>Symfony 6</b> et <b>PHP 8</b> pour résoudre des problèmes de latence et de dysfonctionnement. Grâce à la formation en <b>PHP</b> et <b>Symfony</b> acquise durant mon BUT, j'ai pu réimplémenter plusieurs fonctionnalités pour assurer la compatibilité avec ces nouvelles versions tout en me familiarisant avec les changements majeurs de Symfony, notamment en matière d'<u>authentification</u>. Cette mise à jour a nécessité une analyse approfondie du code existant, l'identification des incompatibilités et la réalisation des ajustements nécessaires. Les connaissances acquises en <u>gestion d'API</u> et en <u>technologies web</u> durant mon BUT ont joué un rôle clé dans le succès de ce projet. La nouvelle version de l'API a été mise en production avec succès avant la fin de mon stage, avec un suivi rigoureux pour corriger d'éventuelles erreurs.",
                         key_skills: [
-                            'Symfony 6',
-                            'PHP 8',
+                            'Symfony',
+                            'PHP',
                             'Authentification',
                             "Gestion d'API",
                             'Technologies Web'

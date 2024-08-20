@@ -73,7 +73,7 @@ import { IconLink, IconMapPinFilled } from '@tabler/icons-vue';
                     color="primary"
                     variant="soft"
                     square
-                    to="https://flowcv.com/resume/s42pbqpvrc"
+                    to="/resume"
                     target="_blank"
                     title="Resume"
                 />

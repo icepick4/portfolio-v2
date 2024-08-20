@@ -4,7 +4,8 @@ useHead({
     meta: [
         {
             name: 'description',
-            content: 'Portfolio of Rémi Jara'
+            content:
+                "Rémi Jara, I'm a passionate developer with a deep interest in technology and all things related to computing. Over the years, I've dedicated myself creating a variety of personal projects, driven by my passion for learning and exploring new technologies."
         },
         {
             property: 'og:title',
@@ -12,7 +13,8 @@ useHead({
         },
         {
             property: 'og:description',
-            content: 'Portfolio of Rémi Jara'
+            content:
+                "Rémi Jara, I'm a passionate developer with a deep interest in technology and all things related to computing. Over the years, I've dedicated myself creating a variety of personal projects, driven by my passion for learning and exploring new technologies."
         },
         {
             property: 'twitter:card',
@@ -23,9 +25,11 @@ useHead({
 
 useSeoMeta({
     title: 'Rémi Jara',
-    description: 'Portfolio of Rémi Jara',
+    description:
+        "Rémi Jara, I'm a passionate developer with a deep interest in technology and all things related to computing. Over the years, I've dedicated myself creating a variety of personal projects, driven by my passion for learning and exploring new technologies.",
     ogTitle: 'Rémi Jara',
-    ogDescription: 'Portfolio of Rémi Jara',
+    ogDescription:
+        "Rémi Jara, I'm a passionate developer with a deep interest in technology and all things related to computing. Over the years, I've dedicated myself creating a variety of personal projects, driven by my passion for learning and exploring new technologies.",
     twitterCard: 'summary'
 });
 </script>

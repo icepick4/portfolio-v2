@@ -1,26 +1,29 @@
 {
-  "name": "nuxt-app",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
-  "dependencies": {
-    "@iconify-json/cif": "^1.1.11",
-    "@iconify-json/circle-flags": "^1.1.48",
-    "@iconify-json/fluent-emoji-flat": "^1.1.17",
-    "@iconify-json/tabler": "^1.1.118",
-    "@nuxt/content": "^2.13.2",
-    "@nuxt/ui": "^2.17.0",
-    "@nuxtjs/i18n": "^8.3.3",
-    "@tabler/icons-vue": "^3.11.0",
-    "js-confetti": "^0.12.0",
-    "nuxt": "^3.12.4",
-    "resend": "^3.4.0",
-    "vue": "latest"
-  }
+    "name": "nuxt-app",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare"
+    },
+    "dependencies": {
+        "@iconify-json/cif": "^1.1.11",
+        "@iconify-json/circle-flags": "^1.1.48",
+        "@iconify-json/fluent-emoji-flat": "^1.1.17",
+        "@iconify-json/tabler": "^1.1.118",
+        "@nuxt/content": "^2.13.2",
+        "@nuxt/ui": "^2.17.0",
+        "@nuxtjs/i18n": "^8.3.3",
+        "@tabler/icons-vue": "^3.11.0",
+        "js-confetti": "^0.12.0",
+        "nuxt": "^3.12.4",
+        "resend": "^3.4.0",
+        "vue": "latest"
+    },
+    "optionalDependencies": {
+        "@rollup/rollup-linux-x64-gnu": "^4.21.0"
+    }
 }

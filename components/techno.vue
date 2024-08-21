@@ -74,7 +74,7 @@ const bigClassesDisplay =
                     }"
                 />
                 <UBadge
-                    class="text-xs group-hover/label:opacity-100 transition-all opacity-0 absolute -top-4 -right-10 z-10"
+                    class="text-xs group-hover/label:opacity-100 transition-all opacity-0 absolute -top-4 -right-8 z-10"
                     color="gray"
                     >{{ techno }}</UBadge
                 >

@@ -32,7 +32,7 @@ function getProjectImageName(title: string) {
                         >{{ project.name }}</a
                     >
                     <div
-                        class="flex flex-wrap gap-3 text-neutral-600 dark:text-neutral-400"
+                        class="flex flex-wrap gap-4 text-neutral-600 dark:text-neutral-400"
                     >
                         <Techno
                             v-for="techno in project.technos"
@@ -65,7 +65,7 @@ function getProjectImageName(title: string) {
         </div>
         <div class="mt-4 flex flex-row items-center justify-start gap-2 w-full">
             <UButton :to="project.repo_link" target="_blank" variant="solid">
-                <UIcon name="devicon-github-original"></UIcon> Code
+                <i class="devicon-github-original"></i> Code
             </UButton>
             <UButton :to="project.link" target="_blank" variant="solid">
                 <IconPlayerPlay class="w-4 h-4" /> {{ $t('view') }}

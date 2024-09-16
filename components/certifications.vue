@@ -75,6 +75,46 @@ useHead({
                     </div>
                 </div>
             </div>
+            <div class="flex flex-col">
+                <div
+                    class="flex flex-row gap-2 items-start justify-between w-full"
+                >
+                    <div class="flex flex-col items-start w-5/6">
+                        <a
+                            class="text-lg font-bold hover:underline"
+                            href="https://www.ets.org/toeic"
+                            >{{ $t('toeicTitle') }}</a
+                        >
+                        <p
+                            class="text-xs text-pretty text-neutral-600 dark:text-neutral-400"
+                        >
+                            {{ $t('toeicDescription') }}<br />
+                            ———<br />
+                            {{ $t('toeicListening') }}: 460/495<br />
+                            {{ $t('toeicReading') }}: 420/495<br />
+                            Total: 880/990 ({{ $t('toeicLevel') }})
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col items-end gap-0.5">
+                        <p class="text-sm mb-1.5">2024</p>
+                        <a
+                            href="https://www.ets.org/toeic"
+                            target="_blank"
+                            class="group relative"
+                        >
+                            <img
+                                src="/logos/toeic.webp"
+                                alt="TOEIC Cert"
+                                class="h-10 w-auto"
+                            />
+                            <IconExternalLink
+                                class="w-5 h-5 opacity-0 group-hover:opacity-100 transition duration-300 absolute"
+                            />
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </template>

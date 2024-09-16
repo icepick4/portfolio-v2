@@ -31,7 +31,13 @@ export default defineI18nConfig(() => ({
             devopsDeveloper: 'DevOps Developer',
             githubCert:
                 'I recently passed the GitHub Foundations certification, demonstrating my knowledge of GitHub and its features. This certification is a testament to my expertise in using GitHub for version control, collaboration, open-source projects, good practices, and more. This is my first certification, I am proud to have passed it and I am looking forward to obtaining more certifications in the future.',
-            projects: 'Projects'
+            projects: 'Projects',
+            toeicTitle: 'TOEIC Listening and Reading Certification',
+            toeicDescription:
+                'I had the opportunity to take the TOEIC in 2024 during my final year of Computer Science Bachelor. I scored 880 points out of 990, which corresponds to a B2 level in English.',
+            toeicListening: 'Listening comprehension',
+            toeicReading: 'Reading comprehension',
+            toeicLevel: 'B2 Level'
         },
         fr: {
             about: {
@@ -62,7 +68,13 @@ export default defineI18nConfig(() => ({
             devopsDeveloper: 'Développeur DevOps',
             githubCert:
                 "J'ai récemment obtenu la certification GitHub Foundations, démontrant mes connaissances sur GitHub et ses fonctionnalités. Cette certification est la preuve de mon expertise dans l'utilisation de GitHub pour le contrôle de version, la collaboration, les projets open-source, les bonnes pratiques, et plus encore. C'est ma première certification, je suis fier de l'avoir obtenue et j'ai hâte d'obtenir plus de certifications à l'avenir.",
-            projects: 'Projets'
+            projects: 'Projets',
+            toeicTitle: 'Certitication TOEIC orale et écrite',
+            toeicDescription:
+                "J'ai eu l'opportinuté de passer le TOEIC en 2024 lors de ma dernière année de BUT Informatique. J'ai obtenu un score de 880 points sur 990, ce qui correspond à un niveau B2 en anglais.",
+            toeicListening: 'Compréhension orale',
+            toeicReading: 'Compréhension écrite',
+            toeicLevel: 'Niveau B2'
         }
     }
 }));

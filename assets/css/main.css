@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-    font-family: "ui-monospace", "Consolas", "Liberation Mono", "Courier New", monospace
+    font-family: "ui-monospace", "Consolas", "Liberation Mono", monospace
 }
 
 h1,

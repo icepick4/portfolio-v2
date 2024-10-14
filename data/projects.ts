@@ -22,6 +22,26 @@ export const projects: Project[] = [
         repo_link: 'https://github.com/icepick4'
     },
     {
+        name: 'GoNuxt',
+        description: {
+            fr: "Un boilerplate en Nuxt.js pour démarrer rapidement n'importe quel SaaS ou micro-SaaS. Il est livré avec des fonctionnalités telles que l'authentification, les paiements Stripe, les e-mails, les pages de profil, et bien plus encore. Il est conçu pour être facilement extensible et personnalisable. Pas besoin de réfléchir à la mise en place de votre application, GoNuxt le fait pour vous !",
+            en: 'A Nuxt.js boilerplate to quickly start any SaaS or micro-SaaS. It comes with features such as authentication, Stripe payments, emails, profile pages, and much more. It is designed to be easily extensible and customizable. No need to think about setting up your application, GoNuxt does it for you !'
+        },
+        type: ['web', 'favorite', 'dev-tool'],
+        date: '2024',
+        technos: [
+            'Nuxt.js',
+            'TypeScript',
+            'Tailwind CSS',
+            'Stripe',
+            'MongoDB',
+            'Resend',
+            'Zod'
+        ],
+        link: 'https://gonuxt.dev/',
+        repo_link: 'https://github.com/icepick4'
+    },
+    {
         name: 'Capitalympics',
         description: {
             en: 'A web application to help users learn about country flags and capitals, offering a focused learning experience based on regions. Built using Vue.js and Tailwind CSS, with backend services hosted via Docker and Nginx.',

@@ -45,6 +45,40 @@ useHead({
                         <a
                             class="text-lg font-bold hover:underline"
                             href="https://resources.github.com/learn/certifications/"
+                            >GitHub Actions</a
+                        >
+                        <p
+                            class="text-xs text-pretty text-neutral-600 dark:text-neutral-400"
+                        >
+                            {{ $t('githubCert2') }}
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col justify-end items-end gap-0.5">
+                        <p class="text-sm mb-1.5">October 2024</p>
+                        <a
+                            href="https://www.credly.com/badges/a3e27415-2a38-4d99-940c-f3df155fbad1/public_url"
+                            target="_blank"
+                            class="group relative"
+                        >
+                            <img
+                                src="/logos/github-actions-badge.webp"
+                                alt="GitHub Cert"
+                                class="w-20 h-18"
+                            />
+                            <IconExternalLink
+                                class="w-5 h-5 opacity-0 group-hover:opacity-100 transition duration-300 absolute"
+                            />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="flex flex-row justify-between gap-2 w-full">
+                    <div class="flex flex-col items-start w-3/4">
+                        <a
+                            class="text-lg font-bold hover:underline"
+                            href="https://resources.github.com/learn/certifications/"
                             >GitHub Foundations</a
                         >
                         <p
@@ -62,7 +96,7 @@ useHead({
                             class="group relative"
                         >
                             <img
-                                src="/logos/github-badge.webp"
+                                src="/logos/github-foundations-badge.webp"
                                 alt="GitHub Cert"
                                 class="w-20 h-18"
                             />

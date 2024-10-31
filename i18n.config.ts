@@ -31,6 +31,8 @@ export default defineI18nConfig(() => ({
             devopsDeveloper: 'DevOps Developer',
             githubCert:
                 'I recently passed the GitHub Foundations certification, demonstrating my knowledge of GitHub and its features. This certification is a testament to my expertise in using GitHub for version control, collaboration, open-source projects, good practices, and more. This is my first certification, I am proud to have passed it and I am looking forward to obtaining more certifications in the future.',
+            githubCert2:
+                'I recently passed the GitHub Actions certification, demonstrating my knowledge of GitHub Actions and its features. This certification is a testament to my expertise in using GitHub Actions for automation, CI/CD, workflows, entreprise and more.',
             projects: 'Projects',
             toeicTitle: 'TOEIC Listening and Reading Certification',
             toeicDescription:
@@ -68,6 +70,8 @@ export default defineI18nConfig(() => ({
             devopsDeveloper: 'Développeur DevOps',
             githubCert:
                 "J'ai récemment obtenu la certification GitHub Foundations, démontrant mes connaissances sur GitHub et ses fonctionnalités. Cette certification est la preuve de mon expertise dans l'utilisation de GitHub pour le contrôle de version, la collaboration, les projets open-source, les bonnes pratiques, et plus encore. C'est ma première certification, je suis fier de l'avoir obtenue et j'ai hâte d'obtenir plus de certifications à l'avenir.",
+            githubCert2:
+                "J'ai récemment obtenu la certification GitHub Actions, démontrant mes connaissances sur GitHub Actions et ses fonctionnalités. Cette certification est la preuve de mon expertise dans l'utilisation de GitHub Actions pour l'automatisation, le CI/CD, les workflows, l'entreprise et plus encore.",
             projects: 'Projets',
             toeicTitle: 'Certitication TOEIC orale et écrite',
             toeicDescription:

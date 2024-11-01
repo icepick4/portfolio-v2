@@ -29,10 +29,18 @@ export default defineI18nConfig(() => ({
             with: 'with',
             fullStack: 'Full-Stack Developer',
             devopsDeveloper: 'DevOps Developer',
-            githubCert:
-                'I recently passed the GitHub Foundations certification, demonstrating my knowledge of GitHub and its features. This certification is a testament to my expertise in using GitHub for version control, collaboration, open-source projects, good practices, and more. This is my first certification, I am proud to have passed it and I am looking forward to obtaining more certifications in the future.',
-            githubCert2:
-                'I recently passed the GitHub Actions certification, demonstrating my knowledge of GitHub Actions and its features. This certification is a testament to my expertise in using GitHub Actions for automation, CI/CD, workflows, entreprise and more.',
+            githubFoundationsCert: {
+                description:
+                    'I recently passed the GitHub Foundations certification, demonstrating my knowledge of GitHub and its features. This certification is a testament to my expertise in using GitHub for version control, collaboration, open-source projects, best practices, and more. This is my first certification, and I am proud to have achieved it. I look forward to earning more certifications in the future.',
+                skills: '<b><u>The certification broadly covers</b></u>: </br></br>1️⃣ Introduction to Git and GitHub</br>2️⃣ Working with GitHub Repositories</br>3️⃣ Collaboration Features</br>4️⃣ Modern Development</br>5️⃣ Project Management</br>6️⃣ Privacy, Security, and Administration</br>7️⃣ Benefits of the GitHub Community',
+                recap: "These foundational skills provide me with a strong understanding of GitHub's ecosystem and its role in modern software development."
+            },
+            githubActionsCert: {
+                description:
+                    'I recently earned the GitHub Actions certification, showcasing my comprehensive understanding of GitHub Actions and its powerful features. This achievement highlights my ability to optimize automation and CI/CD processes effectively.',
+                skills: '<b><u>The certification broadly covers</b></u>: </br></br>1️⃣ Authoring and maintaining workflows</br>2️⃣ Consuming workflows</br>3️⃣ Authoring and maintaining actions</br>4️⃣ Managing GitHub Actions for the enterprise',
+                recap: 'These skills equip me to streamline and enhance software development practices, from automation to large-scale enterprise management.'
+            },
             projects: 'Projects',
             toeicTitle: 'TOEIC Listening and Reading Certification',
             toeicDescription:
@@ -68,10 +76,18 @@ export default defineI18nConfig(() => ({
             with: 'avec',
             fullStack: 'Développeur Full-Stack',
             devopsDeveloper: 'Développeur DevOps',
-            githubCert:
-                "J'ai récemment obtenu la certification GitHub Foundations, démontrant mes connaissances sur GitHub et ses fonctionnalités. Cette certification est la preuve de mon expertise dans l'utilisation de GitHub pour le contrôle de version, la collaboration, les projets open-source, les bonnes pratiques, et plus encore. C'est ma première certification, je suis fier de l'avoir obtenue et j'ai hâte d'obtenir plus de certifications à l'avenir.",
-            githubCert2:
-                "J'ai récemment obtenu la certification GitHub Actions, démontrant mes connaissances sur GitHub Actions et ses fonctionnalités. Cette certification est la preuve de mon expertise dans l'utilisation de GitHub Actions pour l'automatisation, le CI/CD, les workflows, l'entreprise et plus encore.",
+            githubFoundationsCert: {
+                description:
+                    "J'ai récemment obtenu la certification GitHub Foundations, démontrant mes connaissances sur GitHub et ses fonctionnalités. Cette certification est la preuve de mon expertise dans l'utilisation de GitHub pour le contrôle de version, la collaboration, les projets open-source, les bonnes pratiques et plus encore. C'est ma première certification, et je suis fier de l'avoir obtenue. J'ai hâte d'obtenir plus de certifications à l'avenir.",
+                skills: '<b><u>La certification couvre ces compétences</b></u> : </br></br>1️⃣ Introduction à Git et GitHub</br>2️⃃ Travailler avec les dépôts GitHub</br>3️⃃ Fonctionnalités de collaboration</br>4️⃃ Développement moderne</br>5️⃃ Gestion de projet</br>6️⃃ Confidentialité, sécurité et administration</br>7️⃃ Avantages de la communauté GitHub',
+                recap: "Ces compétences fondamentales me donnent une solide compréhension de l'écosystème GitHub et de son rôle dans le développement logiciel moderne."
+            },
+            githubActionsCert: {
+                description:
+                    "J'ai récemment obtenu la certification GitHub Actions, démontrant ma compréhension approfondie de GitHub Actions et de ses puissantes fonctionnalités. Cette réalisation met en lumière ma capacité à optimiser efficacement l'automatisation et les processus CI/CD.",
+                skills: "<b><u>La certification couvre ces compétences</b></u> : </br></br>1️⃣ Rédaction et maintenance des workflows</br>2️⃃ Consommation des workflows</br>3️⃃ Rédaction et maintenance des actions</br>4️⃃ Gestion des GitHub Actions pour l'entreprise",
+                recap: "Ces compétences me permettent de rationaliser et d'améliorer les pratiques de développement logiciel, de l'automatisation à la gestion d'entreprise à grande échelle."
+            },
             projects: 'Projets',
             toeicTitle: 'Certitication TOEIC orale et écrite',
             toeicDescription:

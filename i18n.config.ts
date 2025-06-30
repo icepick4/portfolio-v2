@@ -31,15 +31,20 @@ export default defineI18nConfig(() => ({
             devopsDeveloper: 'DevOps Developer',
             githubFoundationsCert: {
                 description:
-                    'I recently passed the GitHub Foundations certification, demonstrating my knowledge of GitHub and its features. This certification is a testament to my expertise in using GitHub for version control, collaboration, open-source projects, best practices, and more. This is my first certification, and I am proud to have achieved it. I look forward to earning more certifications in the future.',
+                    'I passed the GitHub Foundations certification, demonstrating my knowledge of GitHub and its features. This certification is a testament to my expertise in using GitHub for version control, collaboration, open-source projects, best practices, and more. This is my first certification, and I am proud to have achieved it. I look forward to earning more certifications in the future.',
                 skills: '<b><u>The certification broadly covers</b></u>: </br></br>1️⃣ Introduction to Git and GitHub</br>2️⃣ Working with GitHub Repositories</br>3️⃣ Collaboration Features</br>4️⃣ Modern Development</br>5️⃣ Project Management</br>6️⃣ Privacy, Security, and Administration</br>7️⃣ Benefits of the GitHub Community',
                 recap: "These foundational skills provide me with a strong understanding of GitHub's ecosystem and its role in modern software development."
             },
             githubActionsCert: {
                 description:
-                    'I recently earned the GitHub Actions certification, showcasing my comprehensive understanding of GitHub Actions and its powerful features. This achievement highlights my ability to optimize automation and CI/CD processes effectively.',
+                    'I passed the GitHub Actions certification, showcasing my comprehensive understanding of GitHub Actions and its powerful features. This achievement highlights my ability to optimize automation and CI/CD processes effectively.',
                 skills: '<b><u>The certification broadly covers</b></u>: </br></br>1️⃣ Authoring and maintaining workflows</br>2️⃣ Consuming workflows</br>3️⃣ Authoring and maintaining actions</br>4️⃣ Managing GitHub Actions for the enterprise',
                 recap: 'These skills equip me to streamline and enhance software development practices, from automation to large-scale enterprise management.'
+            },
+            terraformCert: {
+                description: 'I passed the Terraform certification, demonstrating a strong understanding of Infrastructure as Code (IaC) principles and Terraform’s capabilities. This achievement highlights my ability to provision, manage, and scale infrastructure efficiently across cloud environments.',
+                skills: '<b><u>The certification broadly covers</b></u>: </br></br>1️⃣ Understand Infrastructure as Code (IaC) concepts</br>2️⃣ Understand the purpose of Terraform (vs other IaC)</br>3️⃣ Understand Terraform basics</br>4️⃣ Use Terraform outside the core workflow</br>5️⃣ Interact with Terraform modules</br>6️⃣ Use the core Terraform workflow</br>7️⃣ Implement and maintain state</br>8️⃣ Read, generate, and modify configuration</br>9️⃣ Understand HCP Terraform capabilities',
+                recap: 'These skills equip me to automate and manage infrastructure reliably, from simple deployments to complex, multi-cloud architectures—ensuring consistency, scalability, and operational efficiency.'
             },
             projects: 'Projects',
             toeicTitle: 'TOEIC Listening and Reading Certification',
@@ -87,6 +92,11 @@ export default defineI18nConfig(() => ({
                     "J'ai récemment obtenu la certification GitHub Actions, démontrant ma compréhension approfondie de GitHub Actions et de ses puissantes fonctionnalités. Cette réalisation met en lumière ma capacité à optimiser efficacement l'automatisation et les processus CI/CD.",
                 skills: "<b><u>La certification couvre ces compétences</b></u> : </br></br>1️⃣ Rédaction et maintenance des workflows</br>2️⃃ Consommation des workflows</br>3️⃃ Rédaction et maintenance des actions</br>4️⃃ Gestion des GitHub Actions pour l'entreprise",
                 recap: "Ces compétences me permettent de rationaliser et d'améliorer les pratiques de développement logiciel, de l'automatisation à la gestion d'entreprise à grande échelle."
+            },
+            terraformCert: {
+                description: "J'ai obtenu la certification Terraform, démontrant une solide compréhension des principes de l'Infrastructure as Code (IaC) ainsi que des capacités de Terraform. Cette réussite met en évidence ma capacité à provisionner, gérer et faire évoluer efficacement des infrastructures à travers différents environnements cloud.",
+                skills: "<b><u>La certification couvre principalement</b></u> :</br></br>1️⃣ Comprendre les concepts d’Infrastructure as Code (IaC)</br>2️⃣ Comprendre l’objectif de Terraform (comparé à d’autres outils IaC)</br>3️⃣ Comprendre les bases de Terraform</br>4️⃣ Utiliser Terraform en dehors du workflow principal</br>5️⃣ Interagir avec des modules Terraform</br>6️⃣ Utiliser le workflow principal de Terraform</br>7️⃣ Implémenter et maintenir l’état</br>8️⃣ Lire, générer et modifier les configurations</br>9️⃣ Comprendre les fonctionnalités de HCP Terraform",
+                recap: "Ces compétences me permettent d’automatiser et de gérer l’infrastructure de manière fiable, qu’il s’agisse de déploiements simples ou d’architectures complexes multi-cloud — tout en garantissant cohérence, évolutivité et efficacité opérationnelle."
             },
             projects: 'Projets',
             toeicTitle: 'Certitication TOEIC orale et écrite',

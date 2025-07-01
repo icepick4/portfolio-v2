@@ -44,6 +44,49 @@ useHead({
                     <div class="flex flex-col items-start gap-2 w-3/4">
                         <a
                             class="text-lg font-bold hover:underline"
+                            href="https://developer.hashicorp.com/certifications/infrastructure-automation"
+                            >HashiCorp Certified: Terraform Associate (003)</a
+                        >
+                        <p
+                            class="text-xs text-pretty text-neutral-600 dark:text-neutral-400"
+                        >
+                            {{ $t('terraformCert.description') }}
+                        </p>
+                        <p
+                            class="text-xs text-pretty text-neutral-600 dark:text-neutral-400 mt-2"
+                            v-html="$t('terraformCert.skills')"
+                        />
+                        <p
+                            class="text-xs text-pretty text-neutral-600 dark:text-neutral-400 mt-2"
+                        >
+                            {{ $t('terraformCert.recap') }}
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col justify-start items-end gap-0.5">
+                        <p class="text-sm mb-1.5">June 2025</p>
+                        <a
+                            href="https://www.credly.com/badges/d7cf4f5a-8877-463c-967f-43726ba92adf/public_url"
+                            target="_blank"
+                            class="group relative"
+                        >
+                            <img
+                                src="/logos/hashicorp-certified-terraform-associate-003.webp"
+                                alt="Terraform Cert"
+                                class="w-24 h-24"
+                            />
+                            <IconExternalLink
+                                class="w-5 h-5 opacity-0 group-hover:opacity-100 transition duration-300 absolute"
+                            />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="flex flex-row justify-between gap-2 w-full">
+                    <div class="flex flex-col items-start gap-2 w-3/4">
+                        <a
+                            class="text-lg font-bold hover:underline"
                             href="https://resources.github.com/learn/certifications/"
                             >GitHub Actions</a
                         >
@@ -155,49 +198,6 @@ useHead({
                                 src="/logos/toeic.webp"
                                 alt="TOEIC Cert"
                                 class="h-9 w-auto"
-                            />
-                            <IconExternalLink
-                                class="w-5 h-5 opacity-0 group-hover:opacity-100 transition duration-300 absolute"
-                            />
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="flex flex-row justify-between gap-2 w-full">
-                    <div class="flex flex-col items-start gap-2 w-3/4">
-                        <a
-                            class="text-lg font-bold hover:underline"
-                            href="https://developer.hashicorp.com/certifications/infrastructure-automation"
-                            >HashiCorp Certified: Terraform Associate (003)</a
-                        >
-                        <p
-                            class="text-xs text-pretty text-neutral-600 dark:text-neutral-400"
-                        >
-                            {{ $t('terraformCert.description') }}
-                        </p>
-                        <p
-                            class="text-xs text-pretty text-neutral-600 dark:text-neutral-400 mt-2"
-                            v-html="$t('terraformCert.skills')"
-                        />
-                        <p
-                            class="text-xs text-pretty text-neutral-600 dark:text-neutral-400 mt-2"
-                        >
-                            {{ $t('terraformCert.recap') }}
-                        </p>
-                    </div>
-
-                    <div class="flex flex-col justify-start items-end gap-0.5">
-                        <p class="text-sm mb-1.5">June 2025</p>
-                        <a
-                            href="https://www.credly.com/badges/d7cf4f5a-8877-463c-967f-43726ba92adf/public_url"
-                            target="_blank"
-                            class="group relative"
-                        >
-                            <img
-                                src="/logos/hashicorp-certified-terraform-associate-003.webp"
-                                alt="Terraform Cert"
-                                class="w-24 h-24"
                             />
                             <IconExternalLink
                                 class="w-5 h-5 opacity-0 group-hover:opacity-100 transition duration-300 absolute"
